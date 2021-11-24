@@ -24,7 +24,7 @@
         android:backgroundTint="#CB3141"
         android:drawableLeft="@drawable/lg_form"
         android:text="Formularios Registrados"
-        app:drawableLeft="@drawable/"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +38,7 @@
         android:backgroundTint="#CB3141"
         android:drawableLeft="@drawable/lg_form"
         android:text="Formularios no Cargados"
-        app:drawableLeft="@drawable/"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +52,7 @@
         android:backgroundTint="#CB3141"
         android:drawableLeft="@drawable/lg_form"
         android:text="Nuevo Formulario"
-        app:drawableLeft="@drawable/"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
