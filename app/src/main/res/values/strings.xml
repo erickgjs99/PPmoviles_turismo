@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PPmoviles</string>
+    <string name="nombre_del_atractivo_tur_stico">Nombre del Atractivo Turístico</string>
+    <!--Dropdown items -->
+    <string-array name="categoria">
+        <item>Atractivos Naturales</item>
+        <item>Manifestaciones Naturales</item>
+    </string-array>
 </resources>
