@@ -3,12 +3,9 @@ package com.example.ppmoviles
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class FormDatosGenerales : AppCompatActivity() {
-
-
+class UbicacionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_form_datos_generales)
+        setContentView(R.layout.activity_ubicacion)
     }
 }
