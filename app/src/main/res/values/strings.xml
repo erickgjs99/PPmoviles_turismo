@@ -6,4 +6,12 @@
         <item>Atractivos Naturales</item>
         <item>Manifestaciones Naturales</item>
     </string-array>
+    <string-array name="tipo">
+        <item>Arquitectura</item>
+        <item>Folcklore</item>
+        <item>REALIZACIONES_TÉCNICAS_Y_CIENTÍFICAS</item>
+        <item>ACONTECIMIENTOS_PROGRAMADOS</item>
+
+    </string-array>
+
 </resources>
