@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".ConectividadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AcFacilidadesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AcTemporalidadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccesibilidadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClimaActivity"
+            android:exported="false" />
+        <activity
             android:name=".UbicacionActivity"
             android:exported="false" />
         <activity

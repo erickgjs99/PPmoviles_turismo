@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/David/Desktop/PPmoviles_turismo/app/src/main/res/layout/activity_ac_facilidades.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/David/Desktop/PPmoviles_turismo/app/src/main/res/layout/activity_ac_temporalidad.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/David/Desktop/PPmoviles_turismo/app/src/main/res/layout/activity_accesibilidad.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/David/Desktop/PPmoviles_turismo/app/src/main/res/layout/activity_clima.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/David/Desktop/PPmoviles_turismo/app/src/main/res/layout/activity_conectividad.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/David/Desktop/PPmoviles_turismo/app/src/main/res/layout/activity_datosgenerales.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/David/Desktop/PPmoviles_turismo/app/src/main/res/layout/activity_form_datos_generales.xml" value="0.2740036231884058" />
         <entry key="..\:/Users/David/Desktop/PPmoviles_turismo/app/src/main/res/layout/activity_main.xml" value="0.2740036231884058" />
         <entry key="..\:/Users/David/Desktop/PPmoviles_turismo/app/src/main/res/layout/activity_menu.xml" value="0.2740036231884058" />
-        <entry key="..\:/Users/David/Desktop/PPmoviles_turismo/app/src/main/res/layout/activity_ubicacion.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/David/Desktop/PPmoviles_turismo/app/src/main/res/layout/activity_ubicacion.xml" value="0.33" />
         <entry key="..\:/Users/David/Desktop/PPmoviles_turismo/app/src/main/res/layout/list_item.xml" value="0.2740036231884058" />
         <entry key="..\:/Users/David/Desktop/Plataformas Moviles/PPmoviles_turismo/app/src/main/res/layout/activity_datosgenerales.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/David/Desktop/Plataformas Moviles/PPmoviles_turismo/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />

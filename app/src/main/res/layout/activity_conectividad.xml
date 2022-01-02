@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
-        tools:context=".FormDatosGenerales">
+        tools:context=".ConectividadActivity">
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -44,10 +44,18 @@
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:gravity="center"
+                android:text="Conectividad al Atractivo Turístico"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Datos Generales"
-                android:textSize="24sp" />
+                android:text="Acceso (M)"
+                android:textSize="20sp" />
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -70,14 +78,14 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_regresarDatos"
+                    android:id="@+id/btn_regresarConectividad"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Regresar" />
 
                 <Button
-                    android:id="@+id/btn_siguienteDatos"
+                    android:id="@+id/btn_siguienteConectividad"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

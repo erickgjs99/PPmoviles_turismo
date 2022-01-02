@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
-        tools:context=".FormDatosGenerales">
+        tools:context=".ClimaActivity">
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -46,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Datos Generales"
+                android:text="Características Climatológicas"
                 android:textSize="24sp" />
 
             <FrameLayout
@@ -70,14 +70,14 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_regresarDatos"
+                    android:id="@+id/btn_regresarClima"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Regresar" />
 
                 <Button
-                    android:id="@+id/btn_siguienteDatos"
+                    android:id="@+id/btn_siguienteClima"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
