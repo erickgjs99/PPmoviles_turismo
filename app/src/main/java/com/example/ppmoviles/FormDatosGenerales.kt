@@ -98,9 +98,18 @@ class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener 
                 setAdapter(adapter5)
                 onItemClickListener = this@FormDatosGenerales
             }
+        } else if(item == "Ambientes Lacustres"){
+            val subTipo_lacustres = resources.getStringArray(R.array.subTipo_ambLacustres)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_lacustres
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
         }
-
-
 
     }
 }

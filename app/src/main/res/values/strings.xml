@@ -41,5 +41,24 @@
         <item>Costero</item>
         <item>Del Interior</item>
     </string-array>
+    <string-array name="subTipo_ambLacustres">
+        <item>Lago</item>
+        <item>Laguna</item>
+        <item>Pantano</item>
+        <item>Poza</item>
+        <item>Humedal</item>
+        <item>Vado</item>
+        <item>Playa de Laguna</item>
+    </string-array>
+    <string-array name="Rios">
+        <item>Lago</item>
+        <item>Laguna</item>
+        <item>Pantano</item>
+        <item>Poza</item>
+        <item>Humedal</item>
+        <item>Vado</item>
+        <item>Playa de Laguna</item>
+    </string-array>
+
 
 </resources>
