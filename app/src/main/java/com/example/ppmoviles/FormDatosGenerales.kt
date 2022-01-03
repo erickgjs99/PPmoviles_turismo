@@ -20,23 +20,13 @@ class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener 
         setContentView(R.layout.activity_form_datos_generales)
 
         val opciones = resources.getStringArray(R.array.categoria)
-        val tipo = resources.getStringArray(R.array.tipo)
         val adapter = ArrayAdapter(
             this,
             R.layout.list_item,
             opciones
         )
-        val adapter2 = ArrayAdapter(
-            this,
-            R.layout.list_item,
-            tipo
-        )
-        with(autoCompleteTextView){
-          setAdapter(adapter)
-            onItemClickListener = this@FormDatosGenerales
-        }
-        with(autoCompleteTextView2){
-            setAdapter(adapter2)
+        with(categoria){
+            setAdapter(adapter)
             onItemClickListener = this@FormDatosGenerales
         }
         btn_regresarDatos.setOnClickListener(){
@@ -50,5 +40,67 @@ class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener 
     override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
         val item = parent?.getItemAtPosition(position).toString()
         Toast.makeText(this@FormDatosGenerales,item,Toast.LENGTH_SHORT).show()
+        // Tipo por cada categoria
+        if (item == "Atractivos Naturales"){
+            val tipo_atractivos = resources.getStringArray(R.array.tipo_atractivos)
+            val adapter3 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                tipo_atractivos
+            )
+            with(tipo){
+                setAdapter(adapter3)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }else{
+            val tipo_manifestaciones = resources.getStringArray(R.array.tipo_manifestaciones)
+            val adapter4 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                tipo_manifestaciones
+            )
+            with(tipo){
+                setAdapter(adapter4)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }
+        //Subtipo por cada tipo
+        if(item == "Montañas"){
+            val subTipo_montanas = resources.getStringArray(R.array.subTipo_montanas)
+            val adapter6 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_montanas
+            )
+            with(subtipo){
+                setAdapter(adapter6)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }else if(item == "Planicies"){
+            val subTipo_planicies = resources.getStringArray(R.array.subTipo_planicies)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_planicies
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        } else if(item == "Desiertos"){
+            val subTipo_desiertos = resources.getStringArray(R.array.subTipo_desiertos)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_desiertos
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }
+
+
+
     }
 }

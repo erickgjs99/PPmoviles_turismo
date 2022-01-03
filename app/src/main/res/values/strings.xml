@@ -6,12 +6,40 @@
         <item>Atractivos Naturales</item>
         <item>Manifestaciones Naturales</item>
     </string-array>
-    <string-array name="tipo">
+    <string-array name="tipo_atractivos">
+        <item>Montañas</item>
+        <item>Planicies</item>
+        <item>Desiertos</item>
+        <item>Ambientes Lacustres</item>
+        <item>Rios</item>
+        <item>Bosques</item>
+        <item>Aguas Subterraneas</item>
+        <item>Fenómenos Espeleológicos</item>
+        <item>Fenómenos Geológicos</item>
+        <item>Costas o Litorales</item>
+        <item>Ambientes Marinos</item>
+        <item>Tierras Isulares</item>
+    </string-array>
+    <string-array name="tipo_manifestaciones">
         <item>Arquitectura</item>
         <item>Folcklore</item>
-        <item>REALIZACIONES_TÉCNICAS_Y_CIENTÍFICAS</item>
-        <item>ACONTECIMIENTOS_PROGRAMADOS</item>
-
+        <item>Realizaciones técnicas y científicas</item>
+        <item>Acontecimientos programados</item>
+    </string-array>
+    <string-array name="subTipo_montanas">
+        <item>Alta Montaña</item>
+        <item>Media Montaña</item>
+        <item>Baja Montaña</item>
+    </string-array>
+    <string-array name="subTipo_planicies">
+        <item>Llanura</item>
+        <item>Salitre</item>
+        <item>Valle</item>
+        <item>Meseta</item>
+    </string-array>
+    <string-array name="subTipo_desiertos">
+        <item>Costero</item>
+        <item>Del Interior</item>
     </string-array>
 
 </resources>
