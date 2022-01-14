@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">PPmoviles</string>
     <string name="nombre_del_atractivo_tur_stico">Nombre del Atractivo Turístico</string>
     <!--Dropdown items -->
@@ -68,6 +68,2328 @@
         <item>Playa del Río</item>
         <item>Delta</item>
     </string-array>
+
+    <!-- LISTA DE PROVINCIAS, CANTONES Y PARROQUIAS-->
+    <string-array name="provincias">
+        <item>AZUAY</item>
+        <item>BOLIVAR</item>
+        <item>CAÑAR</item>
+        <item>CARCHI</item>
+        <item>COTOPAXI</item>
+        <item>CHIMBORAZO</item>
+        <item>EL ORO</item>
+        <item>ESMERALDAS</item>
+        <item>GUAYAS</item>
+        <item>IMBABURA</item>
+        <item>LOJA</item>
+        <item>LOS RIOS</item>
+        <item>MANABI</item>
+        <item>MORONA SANTIAGO</item>
+        <item>NAPO</item>
+        <item>PASTAZA</item>
+        <item>PICHINCHA</item>
+        <item>TUNGURAGUA</item>
+        <item>ZAMORA CHINCHIPE</item>
+        <item>GALAPAGOS</item>
+        <item>SUCUMBIOS</item>
+        <item>ORELLANA</item>
+        <item>SANTO DOMINGO DE LOS TSACHILAS</item>
+        <item>SANTA ELENA</item>
+        <item>ZONAS EN ESTUDIO</item>
+    </string-array>
+
+    <!--AZUAY -->
+
+    <string-array name="azuay_cantones">
+        <item>CUENCA</item>
+        <item>GIRON</item>
+        <item>GUALACEO</item>
+        <item>NABON</item>
+        <item>PAUTE</item>
+        <item>PUCARA</item>
+        <item>SAN FERNANDO</item>
+        <item>SANTA ISABEL</item>
+        <item>SIGSIG</item>
+        <item>OÑA</item>
+        <item>CHORDELEG</item>
+        <item>EL PAN</item>
+        <item>SEVILLA DE ORO</item>
+        <item>GUACHAPALA</item>
+        <item>CAMILO PONCE ENRIQUEZ</item>
+        <item>PUCARA</item>
+    </string-array>
+
+    <string-array name="cuenca_parroquias">
+        <item>BELLAVISTA</item>
+        <item>CAÑARIBAMBA</item>
+        <item>EL BATAN</item>
+        <item>EL SAGRARIO</item>
+        <item>EL VECINO</item>
+        <item>GIL RAMIREZ DAVALOS</item>
+        <item>HUAYNACAPAC</item>
+        <item>MACHANGARA</item>
+        <item>MONAY</item>
+        <item>SAN BLAS</item>
+        <item>SAN SEBASTIAN</item>
+        <item>SUCRE</item>
+        <item>TOTORACOCHA</item>
+        <item>YANUNCAY</item>
+        <item>HERMANO MIGUEL</item>
+        <item>BAÑOS</item>
+        <item>CUMBE</item>
+        <item>CHAUCHA</item>
+        <item>CHECA (JIDCAY)</item>
+        <item>CHIQUINTAD</item>
+        <item>LLACAO</item>
+        <item>MOLLETURO</item>
+        <item>NULTI</item>
+        <item>OCTAVIO CORDERO PALACIOS (STA. ROSA)</item>
+        <item>PACCHA</item>
+        <item>QUINGEO</item>
+        <item>RICAURTE</item>
+        <item>SAN JOAQUIN</item>
+        <item>SANTA ANA</item>
+        <item>SAYAUSI</item>
+        <item>SIDCAY</item>
+        <item>SININCAY</item>
+        <item>TARQUI</item>
+        <item>TURI</item>
+        <item>VALLE</item>
+        <item>VICTORIA DEL PORTETE (IRQUIS)</item>
+    </string-array>
+
+    <string-array name="giron_parroquias">
+        <item>GIRON</item>
+        <item>ASUNCION</item>
+        <item>SAN GERARDO</item>
+    </string-array>
+
+
+    <string-array name="gualaceo_parroquias">
+        <item>GUALACEO</item>
+        <item>DANIEL CORDOVA TORAL (EL ORIENTE)</item>
+        <item>JADAN</item>
+        <item>MARIANO MORENO</item>
+        <item>REMIGIO CRESPO TORAL (GULAG)</item>
+        <item>SAN JUAN</item>
+        <item>ZHIDMAD</item>
+        <item>LUIS CORDERO VEGA</item>
+        <item>SIMON BOLIVAR (CAB. EN GAÑANZOL)</item>
+    </string-array>
+
+    <string-array name="nabon_parroquias">
+        <item>NABÓN</item>
+        <item>COCHAPATA</item>
+        <item>EL PROGRESO (CAB. EN ZHOTA)</item>
+        <item>LAS NIEVES (CHAYA)</item>
+    </string-array>
+
+    <string-array name="paute_parroquias">
+        <item>PAUTE</item>
+        <item>BULAN (JOSE VICTOR IZQUIERDO)</item>
+        <item>CHICAN (GUILLERMO ORTEGA)</item>
+        <item>EL CABO</item>
+        <item>GUARAINAG</item>
+        <item>SAN CRISTOBAL (CARLOS ORDOÑEZ LAZO)</item>
+        <item>TOMEBAMBA</item>
+        <item>DUG DUG</item>
+    </string-array>
+
+    <string-array name="pucara_parroquias">
+        <item>PUCARÁ</item>
+        <item>SAN RAFAEL DE SHARUG</item>
+    </string-array>
+
+    <string-array name="sanfernando_parroquias">
+        <item>SAN FERNANDO</item>
+        <item>CHUMBLIN</item>
+    </string-array>
+
+    <string-array name="sigsig_parroquias">
+        <item>SIGSIG</item>
+        <item>CUCHIL (CUTCHIL)</item>
+        <item>GIMA</item>
+        <item>GUEL</item>
+        <item>LUDO</item>
+        <item>SAN BARTOLOME</item>
+        <item>SAN JOSE DE RARANGA</item>
+    </string-array>
+
+    <string-array name="ona_parroquias">
+        <item>SAN FELIPE DE OÑA</item>
+        <item>SUSUDEL</item>
+    </string-array>
+
+    <string-array name="chordeleg_parroquias">
+        <item>CHORDELEG</item>
+        <item>PRINCIPAL</item>
+        <item>LA UNION</item>
+        <item>LUIS GALARZA ORELLANA (CAB. EN DELEGSOL)</item>
+        <item>SAN MARTIN DE PUZHIO</item>
+    </string-array>
+
+    <string-array name="guachapala_parroquias">
+        <item>GUACHAPALA</item>
+    </string-array>
+
+    <string-array name="camiloponceenriquez_parroquias">
+        <item>CAMILO PONCE ENRIQUEZ</item>
+    </string-array>
+
+
+    <!--BOLIVAR -->
+    <string-array name="bolivar_cantones">
+        <item>GUARANDA</item>
+        <item>CHILLANES</item>
+        <item>CHIMBO</item>
+        <item>ECHEANDIA</item>
+        <item>SAN_MIGUEL</item>
+        <item>CALUMA</item>
+        <item>LAS NAVES</item>
+    </string-array>
+
+    <string-array name="guaranda_parroquias">
+        <item>ÁNGEL POLIBIO CHÁVES</item>
+        <item>GABRIEL IGNACIO VEINTIMILLA</item>
+        <item>GUANUJO</item>
+        <item>FACUNDO VELA</item>
+        <item>JULIO MORENO (CATANAHUAN GRANDE)</item>
+        <item>SALINAS</item>
+        <item>SAN LORENZO</item>
+        <item>SALINAS</item>
+        <item>SAN SIMON (YACOTO)</item>
+        <item>SANTA FE (SANTA FE)</item>
+        <item>SIMIATUG</item>
+        <item>SAN LUIS DE PAMBIL</item>
+    </string-array>
+
+    <string-array name="chillanes_parroquias">
+        <item>CHILLANES</item>
+        <item>SAN JOSE DEL TAMBO (TAMBOPAMBA)</item>
+    </string-array>
+
+
+    <string-array name="chimbo_parroquias">
+        <item>SAN JOSE DE CHIMBO</item>
+        <item>ASUNCION (ASANCOTO)</item>
+        <item>MAGDALENA (CHAPACOTO)</item>
+        <item>SAN SEBASTIAN</item>
+        <item>TELIMBELA</item>
+    </string-array>
+
+    <string-array name="echendia_parroquias">
+        <item>ECHEANDIA</item>
+    </string-array>
+
+    <string-array name="sanmiguel_parroquias">
+        <item>SAN MIGUEL</item>
+        <item>BALSAPAMBA</item>
+        <item>BILOVAN</item>
+        <item>REGULO DE MORA</item>
+        <item>SAN PABLO (SAN PABLO DE ATENAS)</item>
+        <item>SANTIAGO</item>
+        <item>SAN VICENTE.</item>
+    </string-array>
+
+    <string-array name="caluma_parroquias">
+        <item>CALUMA</item>
+    </string-array>
+
+    <string-array name="lasnaves_parroquias">
+        <item>LAS MERCEDES</item>
+        <item>LAS NAVES</item>
+    </string-array>
+
+
+    <!--CAÑAR -->
+
+    <string-array name="canar_cantones">
+        <item>AZOGUES</item>
+        <item>BIBLIAN</item>
+        <item>CAÑAR</item>
+        <item>LA TRONCAL</item>
+        <item>EL TAMBO</item>
+        <item>DELEG</item>
+        <item>SUSCAL</item>
+    </string-array>
+
+    <string-array name="azogues_parroquias">
+        <item>AURELIO BAYAS MARTÍNEZ</item>
+        <item>AZOGUES</item>
+        <item>BORRERO</item>
+        <item>SAN FRANCISCO</item>
+        <item>COJITAMBO</item>
+        <item>GUAPAN</item>
+        <item>JAVIER LOYOLA (CHUQUIPATA)</item>
+        <item>LUIS CORDERO</item>
+        <item>PINDILIG</item>
+        <item>RIVERA</item>
+        <item>SAN MIGUEL.</item>
+        <item>TADAY</item>
+    </string-array>
+
+    <string-array name="biblian_parroquias">
+        <item>BIBLIAN</item>
+        <item>NAZON (CAB. EN PAMPA DE DOMINGUEZ)</item>
+        <item>SAN FRANCISCO DE SAGEO</item>
+        <item>TURUPAMBA</item>
+        <item>JERUSALEN</item>
+    </string-array>
+
+    <string-array name="canar_parroquias">
+        <item>CAÑAR</item>
+        <item>CHONTAMARCA</item>
+        <item>CHOROCOPTE</item>
+        <item>GENERAL MORALES (SOCARTE)</item>
+        <item>GUALLETURO</item>
+        <item>HONORATO VASQUEZ (TAMBO VIEJO)</item>
+        <item>INGAPIRCA</item>
+        <item>JUNCAL</item>
+        <item>SAN ANTONIO</item>
+        <item>ZHUD</item>
+        <item>VENTURA</item>
+        <item>DUCUR</item>
+    </string-array>
+
+    <string-array name="latroncal_parroquias">
+        <item>LA TRONCAL</item>
+        <item>MANUEL J. CALLE</item>
+        <item>PANCHO NEGRO</item>
+    </string-array>
+
+    <string-array name="eltambo_parroquias">
+        <item>EL TAMBO</item>
+    </string-array>
+
+    <string-array name="deleg_parroquias">
+        <item>DELEG</item>
+        <item>SOLANO</item>
+    </string-array>
+
+    <string-array name="suscal_parroquias">
+        <item>SUSCAL</item>
+    </string-array>
+
+    <!--CARCHI -->
+
+    <string-array name="carchi_cantones">
+        <item>TULCAN</item>
+        <item>BOLIVAR</item>
+        <item>ESPEJO</item>
+        <item>MIRA</item>
+        <item>MONTUFAR</item>
+        <item>SAN PEDRO DE HUACA</item>
+    </string-array>
+
+    <string-array name="tulcan_parroquias">
+        <item>GONZÁLEZ SUÁREZ</item>
+        <item>TULCÁN</item>
+        <item>EL CARMELO (EL PUN)</item>
+        <item>JULIO ANDRADE (OREJUELA)</item>
+        <item>MALDONADO</item>
+        <item>PIOTER</item>
+        <item>TOBAR DONOSO (LA BOCANA DE CAMUMBI)</item>
+        <item>TUFIÑO</item>
+        <item>URBINA (TAYA)</item>
+        <item>EL CHICAL</item>
+        <item>SANTA MARTHA DE CUBA</item>
+    </string-array>
+
+    <string-array name="bolivar_parroquias">
+        <item>BOLIVAR</item>
+        <item>GARCIA MORENO</item>
+        <item>LOS ANDES</item>
+        <item>MONTE OLIVO</item>
+        <item>SAN VICENTE DE PUSIR</item>
+        <item>SAN RAFAEL</item>
+    </string-array>
+
+    <string-array name="espejo_parroquias">
+        <item>EL ÁNGEL</item>
+        <item>27 DE SEPTIEMBRE</item>
+        <item>EL GOALTAL</item>
+        <item>LA LIBERTAD (ALIZO)</item>
+        <item>SAN ISIDRO</item>
+    </string-array>
+
+    <string-array name="mira_parroquias">
+        <item>MIRA (CHONTAHUASI)</item>
+        <item>CONCEPCION</item>
+        <item>JIJON Y CAAMAÑO (CAB. EN RIO BLANCO)</item>
+        <item>JUAN MONTALVO (SAN IGNACIO DE QUIL)</item>
+    </string-array>
+
+    <string-array name="montufar_parroquias">
+        <item>GONZÁLEZ SUÁREZ.</item>
+        <item>SAN JOSÉ</item>
+        <item>CRISTOBAL COLON</item>
+        <item>FERNANDEZ SALVADOR</item>
+        <item>LA PAZ</item>
+        <item>PIARTAL</item>
+    </string-array>
+
+
+    <string-array name="sanpedrodehuaca_parroquias">
+        <item>HUACA</item>
+        <item>MARISCAL SUCRE</item>
+    </string-array>
+
+
+    <!--COTOPAXI -->
+
+    <string-array name="cotopaxi_cantones">
+        <item>LATACUNGA</item>
+        <item>LA MANA</item>
+        <item>CAÑAR</item>
+        <item>PANGUA</item>
+        <item>PUJILI</item>
+        <item>SALCEDO</item>
+        <item>SAQUISILI</item>
+        <item>SIGCHOS</item>
+    </string-array>
+
+    <string-array name="latacunga_parroquias">
+        <item>ELOY ALFARO (SAN FELIPE) </item>
+        <item>IGNACIO FLORES (PARQUE FLORES)</item>
+        <item>JUAN MONTALVO (SAN SEBASTIÁN)</item>
+        <item>LA MATRIZ</item>
+        <item>SAN BUENAVENTURA</item>
+        <item>ALAQUES (ALAQUEZ)</item>
+        <item>BELISARIO QUEVEDO (GUANAILIN)</item>
+        <item>GUAITACAMA (GUAYTACAMA)</item>
+        <item>JOSEGUANGO BAJO</item>
+        <item>MULALO</item>
+        <item>11 DE NOVIEMBRE (ILINCHISI)</item>
+        <item>POALO</item>
+        <item>SAN JUAN DE PASTOCALLE</item>
+        <item>TANICUCHI</item>
+        <item>TOACASO</item>
+    </string-array>
+
+    <string-array name="montufar_parroquias" tools:ignore="DuplicateDefinition">
+        <item>EL CARMEN</item>
+        <item>LA MANÁ </item>
+        <item>EL TRIUNFO</item>
+        <item>GUASAGANDA (CAB. EN GUASAGANDA CENTRO)</item>
+        <item>PUCAYACU</item>
+    </string-array>
+
+    <string-array name="pangua_parroquias">
+        <item>EL CORAZON</item>
+        <item>MORASPUNGO</item>
+        <item>PINLLOPATA</item>
+        <item>RAMON CAMPAÑA</item>
+    </string-array>
+
+    <string-array name="pujili_parroquias">
+        <item>PUJILI</item>
+        <item>ANGAMARCA</item>
+        <item>GUANGAJE</item>
+        <item>LA VICTORIA</item>
+        <item>PILALO</item>
+        <item>TINGO</item>
+        <item>ZUMBAHUA</item>
+    </string-array>
+
+    <string-array name="salcedo_parroquias">
+        <item>SAN  MIGUEL</item>
+        <item>ANTONIO JOSE HOLGUIN (SANTA LUCIA)</item>
+        <item>CUSUBAMBA</item>
+        <item>MULALILLO</item>
+        <item>MULLIQUINDIL (SANTA ANA)</item>
+        <item>PANSALEO</item>
+    </string-array>
+
+    <string-array name="saquisili_parroquias">
+        <item>SAQUISILI</item>
+        <item>CANCHAGUA</item>
+        <item>CHANTILIN</item>
+        <item>COCHAPAMBA</item>
+    </string-array>
+
+
+
+    <string-array name="sigchos_parroquias">
+        <item>SIGCHOS</item>
+        <item>CHUGCHILLAN</item>
+        <item>ISINLIVI</item>
+        <item>LAS PAMPAS</item>
+        <item>PALO QUEMADO</item>
+    </string-array>
+
+
+
+    <!--CHIMBORAZO -->
+
+    <string-array name="chimborazo_cantones">
+        <item>COLTA</item>
+        <item>CHAMBO</item>
+        <item>CHUNCHI</item>
+        <item>GUAMOTE</item>
+        <item>GUANO</item>
+        <item>GUAMOTE</item>
+        <item>PALLATANGA</item>
+        <item>PENIPE</item>
+        <item>CUMANDA</item>
+    </string-array>
+
+    <string-array name="colta_parroquias">
+        <item>CAJABAMBA</item>
+        <item>SICALPA</item>
+        <item>CAÑI</item>
+        <item>COLUMBE</item>
+        <item>JUAN DE VELASCO (PANGOR)</item>
+        <item>SANTIAGO DE QUITO</item>
+    </string-array>
+
+    <string-array name="chambo_parroquias">
+        <item>CHAMBO</item>
+    </string-array>
+
+    <string-array name="chunchi_parroquias">
+        <item>CHUNCHI</item>
+        <item>CAPZOL</item>
+        <item>COMPUD</item>
+        <item>GONZOL</item>
+        <item>LLAGOS</item>
+    </string-array>
+
+    <string-array name="guamote_parroquias">
+        <item>GUAMOTE</item>
+        <item>CEBADAS</item>
+        <item>PALMIRA</item>
+    </string-array>
+
+    <string-array name="guano_parroquias">
+        <item>EL ROSARIO</item>
+        <item>LA MATRIZ</item>
+        <item>GUANANDO</item>
+        <item>ILAPO</item>
+        <item>LA PROVIDENCIA</item>
+        <item>SAN ANDRES</item>
+        <item>SAN GERARDO DE PACAICAGUAN</item>
+        <item>SAN ISIDRO DE PATULU</item>
+        <item>SAN JOSE DEL CHAZO</item>
+        <item>SANTA FE DE GALAN</item>
+        <item>VALPARAISO</item>
+    </string-array>
+
+
+    <string-array name="pallatanga_parroquias">
+        <item>PALLATANGA</item>
+    </string-array>
+
+
+    <string-array name="penipe_parroquias">
+        <item>PENIPE</item>
+        <item>EL ALTAR</item>
+        <item>MATUS</item>
+        <item>PUELA</item>
+        <item>SAN ANTONIO DE BAYUSHIG</item>
+        <item>LA CANDELARIA</item>
+        <item>BILBAO (CAB. EN QUILLUYACU)</item>
+    </string-array>
+
+
+    <string-array name="cumanda_parroquias">
+        <item>CUMANDA</item>
+    </string-array>
+
+
+    <!--EL ORO -->
+
+    <string-array name="eloro_cantones">
+        <item>MACHALA</item>
+        <item>ARENILLAS</item>
+        <item>ATAHUALPA</item>
+        <item>BALSAS</item>
+        <item>CHILLA</item>
+        <item>EL GUABO</item>
+        <item>HUAQUILLAS</item>
+        <item>MARCABELI</item>
+        <item>PASAJE</item>
+        <item>PIÑAS</item>
+        <item>PORTOVELO</item>
+        <item>SANTA ROSA</item>
+        <item>ZARUMA</item>
+        <item>LAS LAJAS</item>
+    </string-array>
+
+
+    <string-array name="machala_parroquias">
+        <item>LA  PROVIDENCIA</item>
+        <item>MACHALA</item>
+        <item>PUERTO BOLÍVAR</item>
+        <item>NUEVE DE MAYO</item>
+        <item>EL CAMBIO</item>
+        <item>EL RETIRO</item>
+    </string-array>
+
+    <string-array name="arenillas_parroquias">
+        <item>ARENILLAS</item>
+        <item>CHACRAS</item>
+        <item>PALMALES</item>
+        <item>CARCABON</item>
+    </string-array>
+
+
+    <string-array name="atahualpa_parroquias">
+        <item>PACCHA</item>
+        <item>AYAPAMBA</item>
+        <item>CORDONCILLO</item>
+        <item>MILAGRO</item>
+        <item>SAN JOSE</item>
+        <item>SAN JUAN DE CERRO AZUL</item>
+    </string-array>
+
+    <string-array name="balsas_parroquias">
+        <item>BALSAS</item>
+        <item>BELLAMARIA</item>
+    </string-array>
+
+    <string-array name="chilla_parroquias">
+        <item>CHILLA</item>
+    </string-array>
+
+    <string-array name="elguabo_parroquias">
+        <item>EL GUABO</item>
+        <item>BARBONES (SUCRE)</item>
+        <item>LA IBERIA</item>
+        <item>TENDALES (CAB. EN PUERTO TENDALES)</item>
+        <item>RIO BONITO</item>
+    </string-array>
+
+
+    <string-array name="huaquillas_parroquias">
+        <item>ECUADOR</item>
+        <item>EL PARAÍSO</item>
+        <item>HUALTACO</item>
+        <item>MILTON REYES</item>
+        <item>UNIÓN LOJANA</item>
+    </string-array>
+
+
+    <string-array name="marcabeli_parroquias">
+        <item>MARCABELI</item>
+        <item>EL INGENIO</item>
+    </string-array>
+
+    <string-array name="pasaje_parroquias">
+        <item>OCHOA LEÓN (MATRIZ)</item>
+        <item>TRES CERRITOS</item>
+        <item>BUENAVISTA</item>
+        <item>CASACAY</item>
+        <item>LA PEAÑA</item>
+        <item>PROGRESO</item>
+        <item>UZHCURRUMI</item>
+        <item>CAÑAQUEMADA</item>
+    </string-array>
+
+
+    <string-array name="pinas_parroquias">
+        <item>LA  MATRIZ</item>
+        <item>LA SUSAYA</item>
+        <item>PIÑAS GRANDE</item>
+        <item>CAPIRO (CAB. EN LA CAPILLA DE CAPIRO)</item>
+        <item>LA BOCANA</item>
+        <item>MOROMORO (CAB. EN EL VADO)</item>
+        <item>PIEDRAS</item>
+        <item>SAN ROQUE (AMBROSIO MALDONADO)</item>
+        <item>SARACAY</item>
+    </string-array>
+
+    <string-array name="portovelo_parroquias">
+        <item>PORTOVELO</item>
+        <item>CURTINCAPA</item>
+        <item>MORALES</item>
+        <item>SALATI</item>
+    </string-array>
+
+
+    <string-array name="santarosa_parroquias">
+        <item>SANTA ROSA</item>
+        <item>PUERTO JELÍ</item>
+        <item>BALNEARIO JAMBELÍ (SATÉLITE)</item>
+        <item>JUMÓN (SATÉLITE)</item>
+        <item>NUEVO SANTA ROSA</item>
+        <item>BELLAVISTA</item>
+        <item>JAMBELI</item>
+        <item>LA AVANZADA</item>
+        <item>SAN ANTONIO</item>
+        <item>TORATA</item>
+        <item>VICTORIA</item>
+        <item>BELLAMARIA</item>
+    </string-array>
+
+    <string-array name="zaruma_parroquias">
+        <item>ZARUMA</item>
+        <item>ABAÑIN</item>
+        <item>ARCAPAMBA</item>
+        <item>GUANAZAN</item>
+        <item>GUIZHAGUIÑA</item>
+        <item>HUERTAS</item>
+        <item>MALVAS</item>
+        <item>MULUNCAY GRANDE</item>
+        <item>SINSAO</item>
+        <item>SALVIAS</item>
+    </string-array>
+
+    <string-array name="laslajas_parroquias">
+        <item>LA VICTORIA</item>
+        <item>PLATANILLOS</item>
+        <item>VALLE HERMOSO</item>
+        <item>LA LIBERTAD</item>
+        <item>EL PARAISO</item>
+        <item>SAN ISIDRO</item>
+    </string-array>
+
+
+    <!--ESMERALDAS -->
+
+    <string-array name="esmeraldas_cantones">
+        <item>ESMERALDAS</item>
+        <item>ELOY ALFARO</item>
+        <item>MUISNE</item>
+        <item>QUININDE</item>
+        <item>SAN LORENZO</item>
+        <item>ATACAMES</item>
+        <item>RIOVERDE</item>
+    </string-array>
+
+    <string-array name="esmeraldas_parroquias">
+        <item>BARTOLOMÉ RUIZ (CÉSAR FRANCO CARRIÓN) </item>
+        <item>5 DE AGOSTO</item>
+        <item>ESMERALDAS</item>
+        <item>LUIS TELLO  (LAS PALMAS)</item>
+        <item>SIMÓN PLATA TORRES</item>
+        <item>CAMARONES (CAB. EN SAN VICENTE)</item>
+        <item>CORONEL CARLOS CONCHA TORRES (CAB. EN HUELE)</item>
+        <item>CHINCA</item>
+        <item>MAJUA</item>
+        <item>SAN MATEO</item>
+        <item>TABIAZO</item>
+        <item>TACHINA</item>
+        <item>VUELTA LARGA</item>
+    </string-array>
+
+    <string-array name="eloyalfaro_parroquias">
+        <item>VALDEZ (LIMONES)</item>
+        <item>ANCHAYACU</item>
+        <item>ATAHUALPA (CAB. EN CAMARONES)</item>
+        <item>BORBON</item>
+        <item>LA TOLA</item>
+        <item>LUIS VARGAS TORRES (CAB. EN PLAYA DE ORO)</item>
+        <item>MALDONADO</item>
+        <item>PAMPANAL DE BOLIVAR</item>
+        <item>SAN FRANCISCO DE ONZOLE</item>
+        <item>SANTO DOMINGO DE ONZOLE</item>
+        <item>SELVA ALEGRE</item>
+        <item>TELEMBI</item>
+        <item>COLON ELOY DEL MARIA</item>
+        <item>SAN JOSE DE CAYAPAS</item>
+        <item>TIMBIRE</item>
+        <item>SANTA LUCIA DE LAS PEÑAS</item>
+    </string-array>
+
+    <string-array name="muisne_parroquias">
+        <item>MUISNE</item>
+        <item>BOLIVAR</item>
+        <item>DAULE</item>
+        <item>GALERA</item>
+        <item>QUINGUE (OLMEDO PERDOMO FRANCO)</item>
+        <item>SALIMA</item>
+        <item>SAN FRANCISCO</item>
+        <item>SAN GREGORIO</item>
+        <item>SAN JOSE DE CHAMANGA</item>
+    </string-array>
+
+    <string-array name="quininde_parroquias">
+        <item>ROSA ZARATE (QUININDE)</item>
+        <item>CUBE</item>
+        <item>MALIMPIA</item>
+        <item>VICHE</item>
+        <item>LA UNION</item>
+    </string-array>
+
+    <string-array name="sanlorenzo_parroquias">
+        <item>SAN LORENZO</item>
+        <item>ALTO TAMBO (CAB EN GUADUAL)</item>
+        <item>ANCON (PICHANGAL) (CAB. EN PALMA REAL)</item>
+        <item>CALDERON</item>
+        <item>CARONDELET</item>
+        <item>5 DE JUNIO (CAB. EN UIMBI)</item>
+        <item>CONCEPCION</item>
+        <item>MATAJE (CAB. EN SANTANDER)</item>
+        <item>SAN JAVIER DE CACHAVI (CAB. EN SAN JAVIER)</item>
+        <item>SANTA RITA</item>
+        <item>TAMBILLO</item>
+        <item>TULULBI (CAB. EN RICAURTE)</item>
+        <item>URBINA</item>
+    </string-array>
+
+
+    <string-array name="atacames_parroquias">
+        <item>ATACAMES</item>
+        <item>LA UNION </item>
+        <item>SUA (CAB. EN LA BOCANA)</item>
+        <item>TONCHIGUE</item>
+        <item>TONSUPA</item>
+    </string-array>
+
+    <string-array name="rioverde_parroquias">
+        <item>RIOVERDE</item>
+        <item>CHONTADURO</item>
+        <item>CHUMUNDE</item>
+        <item>LAGARTO</item>
+        <item>MONTALVO (CAB EN HORQUETA)</item>
+        <item>ROCAFUERTE</item>
+    </string-array>
+
+
+    <!--GUAYAS -->
+
+    <string-array name="guayas_cantones">
+        <item>GUAYAQUIL</item>
+        <item>ALFREDO BAQUERIZO MORENO(JUJAN)</item>
+        <item>BALAO</item>
+        <item>BALZAR</item>
+        <item>COLIMES</item>
+        <item>DAULE</item>
+        <item>DURAN</item>
+        <item>EL EMPALME</item>
+        <item>EL TRIUNFO</item>
+        <item>MILAGRO</item>
+        <item>NARANJAL</item>
+        <item>NARANJITO</item>
+        <item>PALESTINA</item>
+        <item>PEDRO CARBO</item>
+        <item>SAMBORONDON</item>
+        <item>SANTA LUCIA</item>
+        <item>URBINA JADO</item>
+        <item>YAGUACHI</item>
+        <item>PLAYAS</item>
+        <item>SIMON BOLIVAR</item>
+        <item>CORONEL MARCELINO MARIDUEÑA</item>
+        <item>LOMAS DE SARGENTILLO</item>
+        <item>NOBOL</item>
+        <item>GENERAL ANTONIO ELIZALDE</item>
+        <item>ISIDRO AYORA</item>
+    </string-array>
+
+
+    <string-array name="guayaquil_parroquias">
+        <item>AYACUCHO</item>
+        <item>BOLÍVAR  (SAGRARIO)</item>
+        <item>CARBO (CONCEPCIÓN)</item>
+        <item>FEBRES CORDERO</item>
+        <item>GARCÍA MORENO</item>
+        <item>LETAMENDI</item>
+        <item>NUEVE DE OCTUBRE</item>
+        <item>OLMEDO  (SAN ALEJO)</item>
+        <item>ROCA</item>
+        <item>ROCAFUERTE</item>
+        <item>SUCRE</item>
+        <item>TARQUI</item>
+        <item>URDANETA</item>
+        <item>XIMENA</item>
+        <item>PASCUALES</item>
+        <item>JUAN GOMEZ RENDON (PROGRESO)</item>
+        <item>MORRO</item>
+        <item>POSORJA</item>
+        <item>PUNA</item>
+        <item>TENGUEL</item>
+    </string-array>
+
+    <string-array name="alfredobaquerizo_parroquias">
+        <item>ALFREDO BAQUERIZO MORENO(JUJAN)</item>
+    </string-array>
+
+    <string-array name="balao_parroquias">
+        <item>BALAO</item>
+    </string-array>
+
+    <string-array name="balzar_parroquias">
+        <item>BALZAR</item>
+    </string-array>
+
+    <string-array name="colimes_parroquias">
+        <item>COLIMES</item>
+        <item>SAN JACINTO</item>
+    </string-array>
+
+    <string-array name="daule_parroquias">
+        <item>LA AURORA (SATÉLITE)</item>
+        <item>BANIFE</item>
+        <item>EMILIANO CAICEDO MARCOS</item>
+        <item>MAGRO</item>
+        <item>PADRE JUAN BAUTISTA AGUIRRE</item>
+        <item>SANTA CLARA</item>
+        <item>VICENTE PIEDRAHITA</item>
+        <item>JUAN BAUTISTA AGUIRRE (LOS TINTOS)</item>
+        <item>LAUREL</item>
+        <item>LIMONAL</item>
+        <item>LOS LOJAS (ENRIQUE BAQUERIZO MORENO)</item>
+    </string-array>
+
+
+    <string-array name="duran_parroquias">
+        <item>ELOY ALFARO (DURÁN)</item>
+        <item>EL RECREO</item>
+        <item>DIVINO NIÑO</item>
+    </string-array>
+
+    <string-array name="elempalme_parroquias">
+        <item>VELASCO IBARRA (CAB. EL EMPALME)</item>
+        <item>GUAYAS (PUEBLO NUEVO)</item>
+        <item>EL ROSARIO</item>
+    </string-array>
+
+    <string-array name="eltriunfo_parroquias">
+        <item>EL  TRIUNFO</item>
+    </string-array>
+
+
+    <string-array name="milagro_parroquias">
+        <item>CAMILO ANDRADE</item>
+        <item>ELOY ALFARO</item>
+        <item>CHIRIJOS</item>
+        <item>CORONEL ENRIQUE VALDEZ</item>
+        <item>ROSA MARIA</item>
+        <item>JOSE MARIA VELASCO IBARRA</item>
+        <item>VICENTE ROCAFUERTE</item>
+        <item>ERNESTO SEMINARIO</item>
+        <item>LAS PIÑAS</item>
+        <item>CHOBO</item>
+        <item>MARISCAL SUCRE (HUAQUES)</item>
+        <item>ROBERTO ASTUDILLO (CAB. EN CRUCE DE VENECIA)</item>
+    </string-array>
+
+    <string-array name="naranjal_parroquias">
+        <item>NARANJAL</item>
+        <item>JESUS MARIA</item>
+        <item>SAN CARLOS</item>
+        <item>SANTA ROSA DE FLANDES</item>
+        <item>TAURA</item>
+    </string-array>
+
+    <string-array name="naranjito_parroquias">
+        <item>NARANJITO</item>
+    </string-array>
+
+    <string-array name="palestina_parroquias">
+        <item>PALESTINA</item>
+    </string-array>
+
+    <string-array name="pedrocarbo_parroquias">
+        <item>PEDRO CARBO</item>
+        <item>VALLE DE LA VIRGEN</item>
+        <item>SABANILLA</item>
+    </string-array>
+
+    <string-array name="samborondon_parroquias">
+        <item>SAMBORONDÓN</item>
+        <item>LA PUNTILLA (SATÉLITE)</item>
+        <item>TARIFA</item>
+    </string-array>
+
+    <string-array name="santalucia_parroquias">
+        <item>SANTA LUCIA</item>
+    </string-array>
+
+    <string-array name="urbinajado_parroquias">
+        <item>BOCANA</item>
+        <item>CANDILEJOS</item>
+        <item>CENTRAL</item>
+        <item>PARAÍSO</item>
+        <item>SAN MATEO </item>
+        <item>GENERAL VERNAZA (DOS ESTEROS)</item>
+        <item>LA VICTORIA (ÑAUZA)</item>
+        <item>JUNQUILLAL</item>
+    </string-array>
+
+    <string-array name="yaguachi_parroquias">
+        <item>SAN JACINTO DE YAGUACHI</item>
+        <item>GENERAL PEDRO J. MONTERO (BOLICHE)</item>
+        <item>YAGUACHI VIEJO (CONE)</item>
+        <item>VIRGEN DE FATIMA</item>
+    </string-array>
+
+    <string-array name="playas_parroquias">
+        <item>GENERAL VILLAMIL (PLAYAS)</item>
+    </string-array>
+
+
+    <string-array name="simonbolivar_parroquias">
+        <item>SIMON BOLIVAR</item>
+        <item>CORONEL LORENZO DE GARAICOA (PEDREGAL)</item>
+    </string-array>
+
+    <string-array name="coronelmarcelinom_parroquias">
+        <item>CORONEL MARCELINO MARIDUEÑA (SAN CARLOS)</item>
+    </string-array>
+
+
+    <string-array name="lomasdesargentillo_parroquias">
+        <item>LOMAS DE SARGENTILLO</item>
+    </string-array>
+
+
+    <string-array name="nobol_parroquias">
+        <item>NARCISA DE JESUS</item>
+    </string-array>
+
+    <string-array name="generalantonioeli_parroquias">
+        <item>GENERAL ANTONIO ELIZALDE (BUCAY)</item>
+    </string-array>
+
+    <string-array name="isidroayora_parroquias">
+        <item>ISIDRO AYORA</item>
+    </string-array>
+
+
+    <!--IMBABURA -->
+
+    <string-array name="imbabura_cantones">
+        <item>IBARRA</item>
+        <item>ANTONIO ANTE</item>
+        <item>COTACACHI</item>
+        <item>OTAVALO</item>
+        <item>PIMAMPIRO</item>
+        <item>SAN MIGUEL DE URCUQUI</item>
+    </string-array>
+
+    <string-array name="ibarra_parroquias">
+        <item>CARANQUI</item>
+        <item>GUAYAQUIL DE ALPACHACA</item>
+        <item>SAGRARIO</item>
+        <item>SAN  FRANCISCO</item>
+        <item>LA DOLOROSA DEL PRIORATO</item>
+        <item>AMBUQUI</item>
+        <item>ANGOCHAGUA</item>
+        <item>CAROLINA</item>
+        <item>LA ESPERANZA</item>
+        <item>LITA</item>
+        <item>SALINAS</item>
+        <item>SAN ANTONIO</item>
+    </string-array>
+
+
+    <string-array name="antonioante_parroquias">
+        <item>ANDRADE MARÍN  (LOURDES)</item>
+        <item>ATUNTAQUI</item>
+        <item>IMBAYA (SAN LUIS DE COBUENDO)</item>
+        <item>SAN FRANCISCO DE NATABUELA</item>
+        <item>SAN JOSE DE CHALTURA </item>
+        <item>SAN ROQUE</item>
+    </string-array>
+
+
+    <string-array name="cotacachi_parroquias">
+        <item>SAGRARIO</item>
+        <item>SAN  FRANCISCO</item>
+        <item>APUELA</item>
+        <item>GARCIA MORENO (LLURIMAGUA)</item>
+        <item>IMANTAG</item>
+        <item>PEÑAHERRERA</item>
+        <item>PLAZA GUTIERREZ (CALVARIO)</item>
+        <item>QUIROGA</item>
+        <item>6 DE JULIO DE CUELLAJE (CAB. EN CUELLAJE)</item>
+        <item>VACAS GALINDO (EL CHURO) (CAB. EN SAN MIGUEL ALTO)</item>
+    </string-array>
+
+    <string-array name="otavalo_parroquias">
+        <item>JORDÁN</item>
+        <item>SAN LUIS</item>
+        <item>DOCTOR MIGUEL EGAS CABEZAS (PEGUCHE)</item>
+        <item>EUGENIO ESPEJO (CALPAQUI)</item>
+        <item>GONZALEZ SUAREZ</item>
+        <item>PATAQUI</item>
+        <item>SAN JOSE DE QUICHINCHE</item>
+        <item>SAN JUAN DE ILUMAN</item>
+        <item>SAN PABLO</item>
+        <item>SAN RAFAEL</item>
+        <item>SELVA ALEGRE (CAB. EN SAN MIGUEL DE PAMPLONA)</item>
+    </string-array>
+
+    <string-array name="panampiro_parroquias">
+        <item>PIMAMPIRO</item>
+        <item>CHUGA</item>
+        <item>MARIANO ACOSTA</item>
+        <item>SAN FRANCISCO DE SIGSIPAMBA</item>
+    </string-array>
+
+    <string-array name="sanmigueldeurcu_parroquias">
+        <item>URCUQUI</item>
+        <item>CAHUASQUI</item>
+        <item>LA MERCED DE BUENOS AIRES</item>
+        <item>PABLO ARENAS</item>
+        <item>SAN  BLAS</item>
+        <item>TUMBABIRO</item>
+    </string-array>
+
+
+
+
+    <!--LOJA -->
+
+    <string-array name="loja_cantones">
+        <item>LOJA</item>
+        <item>CALVAS</item>
+        <item>CATAMAYO</item>
+        <item>CELICA</item>
+        <item>CHAGUARPAMBA</item>
+        <item>ESPINDOLA</item>
+        <item>GONZANAMA</item>
+        <item>MACARA</item>
+        <item>PALTAS</item>
+        <item>PUYANGO</item>
+        <item>SARAGURO</item>
+        <item>SOZORANGA</item>
+        <item>ZAPOTILLO</item>
+        <item>PINDAL</item>
+        <item>QUILANGA</item>
+        <item>OLMEDO</item>
+    </string-array>
+
+    <string-array name="loja_parroquias">
+        <item>EL  SAGRARIO</item>
+        <item>SAN  SEBASTIÁN</item>
+        <item>SUCRE</item>
+        <item>VALLE</item>
+        <item>CARIGÁN</item>
+        <item>PUNZARA</item>
+        <item>CHANTACO</item>
+        <item>CHUQUIRIBAMBA</item>
+        <item>EL CISNE</item>
+        <item>GUALEL</item>
+        <item>JIMBILLA</item>
+        <item>MALACATOS (VALLADOLID)</item>
+        <item>SAN LUCAS</item>
+        <item>SAN PEDRO DE VILCABAMBA</item>
+        <item>SANTIAGO</item>
+        <item>TAQUIL (MIGUEL RIOFRIO)</item>
+        <item>VILCABAMBA (VICTORIA)</item>
+        <item>YANGANA (ARSENIO CASTILLO)</item>
+        <item>QUINARA</item>
+    </string-array>
+
+
+    <string-array name="calvas_parroquias">
+        <item>CARIAMANGA</item>
+        <item>CHILE</item>
+        <item>SAN  VICENTE</item>
+        <item>COLAISACA</item>
+        <item>EL LUCERO</item>
+        <item>UTUANA</item>
+        <item>SANGUILLIN</item>
+    </string-array>
+
+    <string-array name="catamayo_parroquias">
+        <item>CATAMAYO</item>
+        <item>SAN JOSÉ</item>
+        <item>EL TAMBO</item>
+        <item>GUAYQUICHUMA</item>
+        <item>SAN PEDRO DE LA BENDITA</item>
+        <item>ZAMBI</item>
+    </string-array>
+
+    <string-array name="celica_parroquias">
+        <item>CELICA</item>
+        <item>CRUZPAMBA (CAB EN CARLOS BUSTAMANTE)</item>
+        <item>POZUL (SAN JUAN DE POZUL)</item>
+        <item>SABANILLA</item>
+        <item>TENIENTE MAXIMILIANO RODRIGUEZ LOAIZA</item>
+    </string-array>
+
+    <string-array name="chaguarpamba_parroquias">
+        <item>CHAGUARPAMBA</item>
+        <item>BUENAVISTA</item>
+        <item>EL ROSARIO</item>
+        <item>SANTA RUFINA</item>
+        <item>AMARILLOS</item>
+    </string-array>
+
+    <string-array name="espindola_parroquias">
+        <item>AMALUZA</item>
+        <item>BELLAVISTA</item>
+        <item>JIMBURA</item>
+        <item>SANTA TERESITA</item>
+        <item>27 DE ABRIL (CAB. EN LA NARANJA)</item>
+        <item>EL INGENIO</item>
+        <item>EL AIRO</item>
+    </string-array>
+
+
+    <string-array name="gonzanama_parroquias">
+        <item>GONZANAMA</item>
+        <item>CHANGAIMINA (LA LIBERTAD)</item>
+        <item>NAMBACOLA</item>
+        <item>PURUNUMA (EGUIGUREN)</item>
+        <item>SACAPALCA</item>
+    </string-array>
+
+
+    <string-array name="macara_parroquias">
+        <item>GENERAL ELOY ALFARO (SAN SEBASTIÁN)</item>
+        <item>MACARÁ (MANUEL ENRIQUE RENGEL SUQUILANDA)</item>
+        <item>LARAMA</item>
+        <item>LA  VICTORIA</item>
+        <item>SABIANGO (LA CAPILLA)</item>
+    </string-array>
+
+
+    <string-array name="paltas_parroquias">
+        <item>CATACOCHA</item>
+        <item>LOURDES</item>
+        <item>CANGONAMA</item>
+        <item>GUACHANAMA</item>
+        <item>LAURO GUERRERO</item>
+        <item>ORIANGA</item>
+        <item>SAN  ANTONIO</item>
+        <item>CASANGA</item>
+        <item>YAMANA</item>
+    </string-array>
+
+
+    <string-array name="puyango_parroquias">
+        <item>ALAMOR</item>
+        <item>CIANO</item>
+        <item>EL ARENAL</item>
+        <item>EL LIMO (MARIANA DE JESUS)</item>
+        <item>MERCADILLO</item>
+        <item>VICENTINO</item>
+    </string-array>
+
+
+    <string-array name="saraguro_parroquias">
+        <item>SARAGURO</item>
+        <item>EL PARAISO DE CELEN</item>
+        <item>EL TABLON</item>
+        <item>LLUZHAPA</item>
+        <item>MANU</item>
+        <item>SAN ANTONIO DE QUMBE (CUMBE)</item>
+        <item>SAN PABLO DE TENTA</item>
+        <item>SAN SEBASTIAN DE YULUC</item>
+        <item>SELVA ALEGRE</item>
+        <item>URDANETA (PAQUISHAPA)</item>
+        <item>SUMAYPAMBA</item>
+    </string-array>
+
+    <string-array name="sozoranga_parroquias">
+        <item>SOZORANGA</item>
+        <item>NUEVA FATIMA</item>
+        <item>TACAMOROS</item>
+    </string-array>
+
+
+    <string-array name="zapotillo_parroquias">
+        <item>ZAPOTILLO</item>
+        <item>MANGAHURCO</item>
+        <item>GARZAREAL</item>
+        <item>LIMONES</item>
+        <item>PALETILLAS</item>
+        <item>BOLASPAMBA</item>
+        <item>CAZADEROS</item>
+    </string-array>
+
+
+    <string-array name="pindal_parroquias">
+        <item>PINDAL</item>
+        <item>CHAQUINAL</item>
+        <item>12 DE DICIEMBRE (CAB. EN ACHIOTES)</item>
+        <item>MILAGROS</item>
+    </string-array>
+
+    <string-array name="quilanga_parroquias">
+        <item>QUILANGA</item>
+        <item>FUNDOCHAMBA</item>
+        <item>SAN ANTONIO DE LAS ARADAS (CAB. EN LAS ARADAS)</item>
+    </string-array>
+
+
+    <string-array name="oldemo_parroquias">
+        <item>OLMEDO</item>
+        <item>LA TINGUE</item>
+    </string-array>
+
+    <!--LOS RIOS -->
+
+    <string-array name="losrios_cantones">
+        <item>BABAHOYO</item>
+        <item>BABA</item>
+        <item>MONTALVO</item>
+        <item>PUEBLOVIEJO</item>
+        <item>QUEVEDO</item>
+        <item>URDANETA</item>
+        <item>VENTANAS</item>
+        <item>VINCES</item>
+        <item>PALENQUE</item>
+        <item>BUENA FE</item>
+        <item>VALENCIA</item>
+        <item>MOCACHE</item>
+        <item>QUINSALOMA</item>
+    </string-array>
+
+    <string-array name="babahoyo_parroquias">
+        <item>CLEMENTE BAQUERIZO</item>
+        <item>DOCTOR CAMILO PONCE </item>
+        <item>BARREIRO</item>
+        <item>EL SALTO</item>
+        <item>CARACOL</item>
+        <item>FEBRES CORDERO (LAS JUNTAS)</item>
+        <item>PIMOCHA</item>
+        <item>LA UNION</item>
+    </string-array>
+
+
+    <string-array name="baba_parroquias">
+        <item>BABA</item>
+        <item>GUARE</item>
+        <item>ISLA DE BEJUCAL</item>
+    </string-array>
+
+    <string-array name="montalvo_parroquias">
+        <item>MONTALVO</item>
+        <item>LA ESMERALDA</item>
+    </string-array>
+
+    <string-array name="puebloviejo_parroquias">
+        <item>PUEBLOVIEJO</item>
+        <item>PUERTO PECHICHE</item>
+        <item>SAN  JUAN</item>
+    </string-array>
+
+
+    <string-array name="quevedo_parroquias">
+        <item>QUEVEDO</item>
+        <item>SAN CAMILO</item>
+        <item>GUAYACÁN</item>
+        <item>NICOLÁS INFANTE DÍAZ</item>
+        <item>SAN CRISTÓBAL</item>
+        <item>SIETE DE OCTUBRE</item>
+        <item>24 DE MAYO</item>
+        <item>VENUS DEL RÍO QUEVEDO</item>
+        <item>VIVA ALFARO</item>
+        <item>SAN CARLOS</item>
+        <item>LA ESPERANZA </item>
+    </string-array>
+
+    <string-array name="urdaneta_parroquias">
+        <item>CATARAMA</item>
+        <item>RICAURTE</item>
+    </string-array>
+
+    <string-array name="ventanas_parroquias">
+        <item>10 DE NOVIEMBRE</item>
+        <item>VENTANAS</item>
+        <item>ZAPOTAL</item>
+        <item>CHACARITA</item>
+        <item>LOS ANGELES</item>
+    </string-array>
+
+    <string-array name="vinces_parroquias">
+        <item>BALZAR DE VINCES</item>
+        <item>VINCES CENTRAL</item>
+        <item>SAN LORENZO DE VINCES</item>
+        <item>ANTONIO SOTOMAYOR (CAB. EN PLAYAS DE VINCES)</item>
+    </string-array>
+
+    <string-array name="palenque_parroquias">
+        <item>PALENQUE</item>
+    </string-array>
+
+    <string-array name="buenafe_parroquias">
+        <item>SAN JACINTO DE BUENA FÉ</item>
+        <item>7 DE AGOSTO</item>
+        <item>11 DE OCTUBRE</item>
+        <item>PATRICIA PILAR</item>
+    </string-array>
+
+    <string-array name="valencia_parroquias">
+        <item>VALENCIA</item>
+        <item>LA UNION</item>
+        <item>LA NUEVA UNION</item>
+    </string-array>
+
+    <string-array name="mocache_parroquias">
+        <item>MOCACHE</item>
+    </string-array>
+
+    <string-array name="quinsaloma_parroquias">
+        <item>QUINSALOMA</item>
+    </string-array>
+
+
+    <!--MANABI -->
+
+    <string-array name="manabi_cantones">
+        <item>PORTOVIEJO</item>
+        <item>BOLIVAR</item>
+        <item>CHONE</item>
+        <item>EL CARMEN</item>
+        <item>FLAVIO ALFARO</item>
+        <item>JIPIJAPA</item>
+        <item>JUNIN</item>
+        <item>MANTA</item>
+        <item>MONTECRISTI</item>
+        <item>PAJAN</item>
+        <item>PICHINCHA</item>
+        <item>ROCAFUERTE</item>
+        <item>SANTA ANA</item>
+        <item>SUCRE</item>
+        <item>TOSAGUA</item>
+        <item>24 DE MAYO</item>
+        <item>PEDERNALES</item>
+        <item>OLMEDO</item>
+        <item>PUERTO LOPEZ</item>
+        <item>JAMA</item>
+        <item>JARAMIJO</item>
+        <item>SAN VICENTE</item>
+    </string-array>
+
+    <string-array name="portoviejo_parroquias">
+        <item>PORTOVIEJO</item>
+        <item>12 DE MARZO</item>
+        <item>COLÓN</item>
+        <item>PICOAZÁ</item>
+        <item>SAN  PABLO</item>
+        <item>ANDRÉS DE VERA</item>
+        <item>FRANCISCO PACHECO</item>
+        <item>18 DE OCTUBRE</item>
+        <item>SIMÓN BOLÍVAR</item>
+        <item>ABDON CALDERON (SAN FRANCISCO)</item>
+        <item>ALHAJUELA (BAJO GRANDE)</item>
+        <item>CRUCITA</item>
+        <item>PUEBLO NUEVO</item>
+        <item>RIOCHICO (RIO CHICO)</item>
+        <item>SAN PLACIDO</item>
+        <item>CHIRIJOS</item>
+    </string-array>
+
+    <string-array name="bolivar_parroquias" tools:ignore="DuplicateDefinition">
+        <item>CALCETA</item>
+        <item>MEMBRILLO</item>
+        <item>QUIROGA</item>
+    </string-array>
+
+    <string-array name="chone_parroquias">
+        <item>CHONE</item>
+        <item>SANTA RITA</item>
+        <item>BOYACA</item>
+        <item>CANUTO</item>
+        <item>CONVENTO</item>
+        <item>CHIBUNGA</item>
+        <item>ELOY ALFARO</item>
+        <item>RICAURTE</item>
+        <item>SAN ANTONIO</item>
+    </string-array>
+
+    <string-array name="elcarmen_parroquias">
+        <item>EL  CARMEN</item>
+        <item>4 DE DICIEMBRE</item>
+        <item>WILFRIDO LOOR MOREIRA (MAICITO)</item>
+        <item>SAN PEDRO DE SUMA</item>
+    </string-array>
+
+    <string-array name="flavioalfaro_parroquias">
+        <item>FLAVIO ALFARO</item>
+        <item>SAN FRANCISCO DE NOVILLO(CAB.EN NOVILLO)</item>
+        <item>ZAPALLO</item>
+    </string-array>
+
+    <string-array name="jipijapa_parroquias">
+        <item>DOCTOR MIGUEL MORÁN LUCIO</item>
+        <item>MANUEL INOCENCIO PARRALES Y GUALE</item>
+        <item>SAN LORENZO DE JIPIJAPA</item>
+        <item>AMERICA</item>
+        <item>EL ANEGADO (CAB. EN ELOY ALFARO)</item>
+        <item>JULCUY</item>
+        <item>LA  UNION</item>
+        <item>MEMBRILLAL</item>
+        <item>PEDRO PABLO GOMEZ</item>
+        <item>PUERTO DE CAYO</item>
+    </string-array>
+
+    <string-array name="junin_parroquias">
+        <item>JUNIN</item>
+    </string-array>
+
+    <string-array name="manta_parroquias">
+        <item>LOS ESTEROS</item>
+        <item>MANTA</item>
+        <item>SAN MATEO</item>
+        <item>TARQUI</item>
+        <item>ELOY ALFARO</item>
+        <item>SAN LORENZO</item>
+        <item>SANTA MARIANITA (BOCA DE PACOCHE)</item>
+    </string-array>
+
+    <string-array name="montecristi_parroquias">
+        <item>ANÍBAL SAN ANDRÉS</item>
+        <item>MONTECRISTI</item>
+        <item>EL COLORADO</item>
+        <item>GENERAL ELOY ALFARO</item>
+        <item>LEONIDAS PROAÑO</item>
+        <item>LA PILA</item>
+    </string-array>
+
+    <string-array name="pajan_parroquias">
+        <item>PAJAN</item>
+        <item>CAMPOZANO (LA PALMA DE PAJAN)</item>
+        <item>CASCOL</item>
+        <item>GUALE</item>
+        <item>LASCANO</item>
+    </string-array>
+
+    <string-array name="pichincha_parroquias">
+        <item>PICHINCHA</item>
+        <item>BARRAGANETE</item>
+        <item>SAN SEBASTIAN</item>
+    </string-array>
+
+    <string-array name="rocafuerte_parroquias">
+        <item>ROCAFUERTE</item>
+    </string-array>
+
+    <string-array name="santaana_parroquias">
+        <item>SANTA ANA</item>
+        <item>LODANA</item>
+        <item>AYACUCHO</item>
+        <item>HONORATO VASQUEZ (CAB EN VASQUEZ)</item>
+        <item>LA UNION </item>
+        <item>SAN PABLO (CAB EN PUEBLO NUEVO)</item>
+    </string-array>
+
+    <string-array name="sucre_parroquias">
+        <item>BAHÍA DE CARÁQUEZ</item>
+        <item>LEONIDAS PLAZA GUTIÉRREZ</item>
+        <item>CHARAPOTO</item>
+        <item>SAN ISIDRO</item>
+    </string-array>
+
+    <string-array name="tosagua_parroquias">
+        <item>TOSAGUA</item>
+        <item>BACHILLERO</item>
+        <item>ANGEL PEDRO GILER (LA ESTANCILLA)</item>
+    </string-array>
+
+    <string-array name="mayo24_parroquias">
+        <item>SUCRE</item>
+        <item>BELLAVISTA</item>
+        <item>NOBOA</item>
+        <item>ARQUITECTO SIXTO DURAN BALLEN</item>
+    </string-array>
+
+    <string-array name="pedernales_parroquias">
+        <item>PEDERNALES</item>
+        <item>COJIMIES</item>
+        <item>DIEZ DE AGOSTO</item>
+        <item>ATAHUALPA</item>
+    </string-array>
+
+    <string-array name="olmedo_parroquias">
+        <item>OLMEDO</item>
+    </string-array>
+
+
+    <string-array name="puertolopez_parroquias">
+        <item>PUERTO LOPEZ</item>
+        <item>MACHALILLA</item>
+        <item>SALANGO</item>
+    </string-array>
+
+
+    <string-array name="jama_parroquias">
+        <item>JAMA</item>
+    </string-array>
+
+    <string-array name="jaramijo_parroquias">
+        <item>JARAMIJO</item>
+    </string-array>
+
+    <string-array name="sanvicente_parroquias">
+        <item>SAN VICENTE</item>
+        <item>CANOA</item>
+    </string-array>
+
+
+    <!--MORONA SANTIAGO -->
+
+    <string-array name="moronasantiago_cantones">
+        <item>MORONA</item>
+        <item>GUALAQUIZA</item>
+        <item>LIMON INDANZA</item>
+        <item>PALORA</item>
+        <item>SANTIAGO</item>
+        <item>SUCUA</item>
+        <item>HUAMBOYA</item>
+        <item>SAN JUAN BOSCO</item>
+        <item>TAISHA</item>
+        <item>LOGROÑO</item>
+        <item>PABLO SEXTO</item>
+        <item>TIWINTZA</item>
+    </string-array>
+
+    <string-array name="morona_parroquias">
+        <item>MACAS</item>
+        <item>ALSHI (CAB EN 9 DE OCTUBRE)</item>
+        <item>GENERAL PROAÑO</item>
+        <item>SAN ISIDRO</item>
+        <item>SEVILLA DON BOSCO</item>
+        <item>SINAI</item>
+        <item>ZUÑA (ZUÑAC)</item>
+        <item>CUCHAENTZA</item>
+        <item>RIO BLANCO</item>
+    </string-array>
+
+    <string-array name="gualaquiza_parroquias">
+        <item>GUALAQUIZA</item>
+        <item>MERCEDES MOLINA</item>
+        <item>AMAZONAS (ROSARIO DE CUYES)</item>
+        <item>BERMEJOS</item>
+        <item>BOMBOIZA</item>
+        <item>CHIGUINDA</item>
+        <item>EL ROSARIO</item>
+        <item>NUEVA TARQUI</item>
+        <item>SAN MIGUEL DE CUYES</item>
+        <item>EL IDEAL</item>
+    </string-array>
+
+    <string-array name="limonindanza_parroquias">
+        <item>GENERAL LEONIDAS PLAZA GUTIERREZ</item>
+        <item>INDANZA</item>
+        <item>SAN ANTONIO (CAB EN SAN ANTONIO CENTRO)</item>
+        <item>SAN MIGUEL DE CONCHAY</item>
+        <item>STA SUSANA DE CHIVIAZA (CAB EN CHIVIAZA)</item>
+        <item>YUNGANZA (CAB EN EL ROSARIO)</item>
+    </string-array>
+
+    <string-array name="palora_parroquias">
+        <item>PALORA (METZERA)</item>
+        <item>ARAPICOS</item>
+        <item>CUMANDA (CAB EN COLONIA AGRICOLA SEVILLA DEL ORO)</item>
+        <item>SANGAY (CAB EN NAYAMANACA)</item>
+        <item>16 DE AGOSTO</item>
+    </string-array>
+
+    <string-array name="santiago_parroquias">
+        <item>SANTIAGO DE MENDEZ</item>
+        <item>COPAL</item>
+        <item>CHUPIANZA</item>
+        <item>PATUCA</item>
+        <item>SAN LUIS DE EL ACHO (CAB EN EL ACHO)</item>
+        <item>TAYUZA</item>
+        <item>SAN FRANCISCO DE CHINIMBIMI</item>
+    </string-array>
+
+    <string-array name="sucua_parroquias">
+        <item>SUCUA</item>
+        <item>ASUNCION</item>
+        <item>HUAMBI</item>
+        <item>SANTA MARIANITA DE JESUS</item>
+    </string-array>
+
+    <string-array name="huamboya_parroquias">
+        <item>HUAMBOYA</item>
+        <item>CHIGUAZA</item>
+    </string-array>
+
+    <string-array name="sanjuanbosco_parroquias">
+        <item>SAN JUAN BOSCO</item>
+        <item>PAN DE AZUCAR</item>
+        <item>SAN CARLOS DE LIMON</item>
+        <item>SAN JACINTO DE WAKAMBEIS</item>
+        <item>SANTIAGO DE PANANZA</item>
+    </string-array>
+
+    <string-array name="taisha_parroquias">
+        <item>TAISHA</item>
+        <item>HUASAGA (CAB EN WAMPUIK)</item>
+        <item>MACUMA</item>
+        <item>TUUTINENTZA</item>
+        <item>PUMPUENTSA</item>
+    </string-array>
+
+    <string-array name="logrono_parroquias">
+        <item>LOGROÑO</item>
+        <item>YAUPI</item>
+        <item>SHIMPIS</item>
+    </string-array>
+
+    <string-array name="pablosexto_parroquias">
+        <item>PABLO SEXTO</item>
+    </string-array>
+
+    <string-array name="tiwintza_parroquias">
+        <item>SANTIAGO</item>
+        <item>SAN JOSE DE MORONA</item>
+    </string-array>
+
+
+    <!--NAPO -->
+
+    <string-array name="napo_cantones">
+        <item>TENA</item>
+        <item>ARCHIDONA</item>
+        <item>EL CHACO</item>
+        <item>QUIJOS</item>
+        <item>CARLOS JULIO AROSEMENA TOLA</item>
+    </string-array>
+
+
+    <string-array name="tena_parroquias">
+        <item>TENA</item>
+        <item>AHUANO</item>
+        <item>CHONTAPUNTA</item>
+        <item>PANO</item>
+        <item>PUERTO MISAHUALLI</item>
+        <item>PUERTO NAPO</item>
+        <item>TALAG</item>
+        <item>SAN JUAN DE MUYUNA</item>
+    </string-array>
+
+    <string-array name="archidona_parroquias">
+        <item>ARCHIDONA</item>
+        <item>COTUNDO</item>
+        <item>SAN PABLO DE USHPAYACU</item>
+        <item>HATUN SUMAKU</item>
+    </string-array>
+
+    <string-array name="elchaco_parroquias">
+        <item>EL CHACO</item>
+        <item>GONZALO DIAZ DE PINEDA (EL BOMBON)</item>
+        <item>LINARES</item>
+        <item>OYACACHI</item>
+        <item>SANTA ROSA</item>
+        <item>SARDINAS</item>
+    </string-array>
+
+    <string-array name="quijos_parroquias">
+        <item>BAEZA</item>
+        <item>COSANGA</item>
+        <item>CUYUJA</item>
+        <item>PAPALLACTA</item>
+        <item>SAN FRANCISCO DE BORJA (VIRGILIO DAVILA)</item>
+        <item>SUMACO</item>
+    </string-array>
+
+    <string-array name="carlosjulioarosemena_parroquias">
+        <item>BAEZA</item>
+        <item>COSANGA</item>
+        <item>CUYUJA</item>
+        <item>PAPALLACTA</item>
+        <item>SAN FRANCISCO DE BORJA (VIRGILIO DAVILA)</item>
+        <item>SUMACO</item>
+    </string-array>
+
+
+    <!--PASTAZA -->
+
+    <string-array name="pastaza_cantones">
+        <item>PASTAZA</item>
+        <item>MERA</item>
+        <item>SANTA CLARA</item>
+        <item>ARAJUNO</item>
+    </string-array>
+
+    <string-array name="pastaza_parroquias">
+        <item>PUYO</item>
+        <item>CANELOS</item>
+        <item>DIEZ DE  AGOSTO</item>
+        <item>FATIMA</item>
+        <item>MONTALVO (ANDOAS)</item>
+        <item>POMONA</item>
+        <item>RIO CORRIENTES</item>
+        <item>RIO TIGRE</item>
+        <item>SARAYACU</item>
+        <item>SIMON BOLIVAR (CAB. EN MUSHULLACTA)</item>
+        <item>TENIENTE HUGO ORTIZ</item>
+        <item>VERACRUZ (INDILLAMA) (CAB. EN INDILLAMA)</item>
+        <item>EL TRIUNFO</item>
+    </string-array>
+
+    <string-array name="mera_parroquias">
+        <item>MERA</item>
+        <item>MADRE TIERRA</item>
+        <item>SHELL</item>
+    </string-array>
+
+    <string-array name="santaclara_parroquias">
+        <item>SANTA CLARA</item>
+        <item>SAN JOSE</item>
+    </string-array>
+
+    <string-array name="arajuno_parroquias">
+        <item>ARAJUNO</item>
+        <item>CURARAY</item>
+    </string-array>
+
+    <!--PICHINCHA -->
+
+    <string-array name="pichicha_cantones">
+        <item>DISTRITO METROPOLITANO DE QUITO</item>
+        <item>CAYAMBE</item>
+        <item>MEJIA</item>
+        <item>PEDRO MONCAYO</item>
+        <item>RUMIÑAHUI</item>
+        <item>SAN MIGUEL DE LOS BANCOS</item>
+        <item>PEDRO VICENTE MALDONADO</item>
+        <item>PUERTO QUITO</item>
+    </string-array>
+
+
+    <string-array name="distrmetroquito_parroquias">
+        <item>BELISARIO QUEVEDO</item>
+        <item>CARCELÉN</item>
+        <item>CENTRO HISTÓRICO</item>
+        <item>COCHAPAMBA</item>
+        <item>COMITÉ DEL PUEBLO</item>
+        <item>COTOCOLLAO</item>
+        <item>CHILIBULO</item>
+        <item>CHILLOGALLO</item>
+        <item>CHIMBACALLE</item>
+        <item>EL CONDADO</item>
+        <item>GUAMANÍ</item>
+        <item>IÑAQUITO</item>
+        <item>ITCHIMBIA</item>
+        <item>JIPIJAPA</item>
+        <item>KENNEDY</item>
+        <item>LA ARGELIA</item>
+        <item>LA CONCEPCIÓN</item>
+        <item>LA ECUATORIANA</item>
+        <item>LA FERROVIARIA</item>
+        <item>LA LIBERTAD</item>
+        <item>LA MAGDALENA</item>
+        <item>LA MENA</item>
+        <item>MARISCAL SUCRE</item>
+        <item>PONCEANO</item>
+        <item>PUENGASÍ</item>
+        <item>QUITUMBE</item>
+        <item>RUMIPAMBA</item>
+        <item>SAN BARTOLO</item>
+        <item>SAN ISIDRO DEL INCA</item>
+        <item>SAN JUAN</item>
+        <item>SOLANDA</item>
+        <item>TURUBAMBA</item>
+        <item>ALANGASI</item>
+        <item>AMAGUAÑA</item>
+        <item>ATAHUALPA (HABASPAMBA)</item>
+        <item>CALACALI</item>
+        <item>CALDERON (CARAPUNGO)</item>
+        <item>CONOCOTO</item>
+        <item>CUMBAYA</item>
+        <item>CHAVEZPAMBA</item>
+        <item>CHECA (CHILPA)</item>
+        <item>EL QUINCHE</item>
+        <item>GUALEA</item>
+        <item>GUANGOPOLO</item>
+        <item>GUAYLLABAMBA</item>
+        <item>LA MERCED</item>
+        <item>LLANO CHICO</item>
+        <item>LLOA</item>
+        <item>NANEGAL</item>
+        <item>NANEGALITO</item>
+        <item>NAYON</item>
+        <item>NONO</item>
+        <item>PACTO</item>
+        <item>PERUCHO</item>
+        <item>PIFO</item>
+        <item>PINTAG</item>
+        <item>POMASQUI</item>
+        <item>PUELLARO</item>
+        <item>PUEMBO</item>
+        <item>SAN ANTONIO</item>
+        <item>SAN JOSE DE MINAS</item>
+        <item>TABABELA</item>
+        <item>TUMBACO</item>
+        <item>YARUQUI</item>
+        <item>ZAMBIZA</item>
+    </string-array>
+
+    <string-array name="cayambe_parroquias">
+        <item>CAYAMBE</item>
+        <item>JUAN MONTALVO</item>
+        <item>ASCAZUBI</item>
+        <item>CANGAHUA</item>
+        <item>OLMEDO (PESILLO)</item>
+        <item>OTON</item>
+        <item>SANTA ROSA DE CUZUBAMBA</item>
+        <item>SAN JOSE DE AYORA</item>
+    </string-array>
+
+    <string-array name="mejia_parroquias">
+        <item>MACHACHI</item>
+        <item>ALOAG</item>
+        <item>ALOASI</item>
+        <item>CUTUGLAHUA</item>
+        <item>EL CHAUPI</item>
+        <item>MANUEL CORNEJO ASTORGA (TANDAPI)</item>
+        <item>TAMBILLO</item>
+        <item>UYUMBICHO</item>
+    </string-array>
+
+    <string-array name="pedromoncayo_parroquias">
+        <item>TABACUNDO</item>
+        <item>LA  ESPERANZA</item>
+        <item>MALCHINGUI</item>
+        <item>TOCACHI</item>
+        <item>TUPIGACHI</item>
+    </string-array>
+
+    <string-array name="ruminahui_parroquias">
+        <item>SANGOLQUÍ</item>
+        <item>SAN PEDRO DE TABOADA</item>
+        <item>SAN RAFAEL</item>
+        <item>COTOGCHOA</item>
+        <item>RUMIPAMBA</item>
+    </string-array>
+
+    <string-array name="sanmiguelbancos_parroquias">
+        <item>SAN MIGUEL DE LOS BANCOS</item>
+        <item>MINDO</item>
+    </string-array>
+
+
+    <string-array name="pedrovicentemald_parroquias">
+        <item>PEDRO VICENTE MALDONADO</item>
+    </string-array>
+
+    <string-array name="puertoquito_parroquias">
+        <item>PUERTO QUITO</item>
+    </string-array>
+
+    <!--TUNGURAHUA -->
+
+    <string-array name="tungurahua_cantones">
+        <item>AMBATO</item>
+        <item>BAÑOS DE AGUA SANTA</item>
+        <item>CEVALLOS</item>
+        <item>MOCHA</item>
+        <item>PATATE</item>
+        <item>QUERO</item>
+        <item>PELILEO</item>
+        <item>PILLARO</item>
+        <item>TISALEO</item>
+    </string-array>
+
+    <string-array name="ambato_parroquias">
+        <item>ATOCHA FICOA</item>
+        <item>CELIANO MONGE</item>
+        <item>HUACHI CHICO</item>
+        <item>HUACHI LORETO</item>
+        <item>LA MERCED</item>
+        <item>LA PENÍNSULA</item>
+        <item>MATRIZ</item>
+        <item>PISHILATA</item>
+        <item>SAN FRANCISCO</item>
+        <item>AMBATILLO</item>
+        <item>ATAHUALPA (CHISALATA)</item>
+        <item>AUGUSTO N. MARTINEZ (MUNDUGLEO)</item>
+        <item>CONSTANTINO FERNANDEZ (CAB. EN CULLITAHUA)</item>
+        <item>HUACHI GRANDE</item>
+        <item>IZAMBA</item>
+        <item>JUAN BENIGNO VELA</item>
+        <item>MONTALVO</item>
+        <item>PASA</item>
+        <item>PICAIGUA</item>
+        <item>PILAGUIN (PILAHUIN)</item>
+        <item>QUISAPINCHA (QUIZAPINCHA)</item>
+        <item>SAN BARTOLOME DE PINLLO</item>
+        <item>SAN FERNANDO (PASA SAN FERNANDO)</item>
+        <item>SANTA ROSA</item>
+        <item>TOTORAS</item>
+        <item>CUNCHIBAMBA</item>
+        <item>UNAMUNCHO</item>
+    </string-array>
+
+    <string-array name="banosaguasanta_parroquias">
+        <item>BAÑOS DE AGUA SANTA</item>
+        <item>LLIGUA</item>
+        <item>RIO NEGRO</item>
+        <item>RIO VERDE</item>
+        <item>ULBA</item>
+    </string-array>
+
+    <string-array name="cevallos_parroquias">
+        <item>CEVALLOS</item>
+    </string-array>
+
+    <string-array name="mocha_parroquias">
+        <item>MOCHA</item>
+    </string-array>
+
+    <string-array name="patate_parroquias">
+        <item>PATATE</item>
+        <item>EL TRIUNFO</item>
+        <item>LOS ANDES (CAB. EN POATUG)</item>
+        <item>SUCRE (CAB. EN SUCRE-PATATE URCU)</item>
+    </string-array>
+
+    <string-array name="quero_parroquias">
+        <item>QUERO</item>
+        <item>RUMIPAMBA</item>
+        <item>YANAYACU- MOCHAPATA (CAB. EN YANAYACU)</item>
+    </string-array>
+
+    <string-array name="palileo_parroquias">
+        <item>PELILEO</item>
+        <item>PELILEO GRANDE</item>
+        <item>BENITEZ (PACHANLICA)</item>
+        <item>BOLIVAR</item>
+        <item>COTALO</item>
+        <item>CHIQUICHA (CAB. EN CHIQUICHA GRANDE)</item>
+        <item>EL ROSARIO (RUMICHACA)</item>
+        <item>GARCIA MORENO (CHUMAQUI)</item>
+        <item>GUAMBALO (HUAMBALO)</item>
+        <item>SALASACA</item>
+    </string-array>
+
+    <string-array name="pillaro_parroquias">
+        <item>CIUDAD NUEVA</item>
+        <item>PÍLLARO</item>
+        <item>BAQUERIZO MORENO</item>
+        <item>EMILIO MARIA TERAN (RUMIPAMBA)</item>
+        <item>MARCOS ESPINEL (CHACATA)</item>
+        <item>PRESIDENTE URBINA (CHAGRAPAMBA -PATZUCUL)</item>
+        <item>SAN ANDRES</item>
+        <item>SAN JOSE DE POALO</item>
+        <item>SAN MIGUELITO</item>
+    </string-array>
+
+    <string-array name="tisaleo_parroquias">
+        <item>TISALEO</item>
+        <item>QUINCHICOTO</item>
+    </string-array>
+
+
+    <!--ZAMORA CHINCHIPE -->
+
+    <string-array name="zamorachinchipe_cantones">
+        <item>ZAMORA</item>
+        <item>CHINCHIPE</item>
+        <item>NANGARITZA</item>
+        <item>YACUAMBI</item>
+        <item>YANTZAZA</item>
+        <item>EL PANGUI</item>
+        <item>CENTINELA DEL CONDOR</item>
+        <item>PALANDA</item>
+        <item>PAQUISHA</item>
+    </string-array>
+
+    <string-array name="zamora_parroquias">
+        <item>EL LIMÓN</item>
+        <item>ZAMORA</item>
+        <item>CUMBARATZA</item>
+        <item>GUADALUPE</item>
+        <item>IMBANA (LA VICTORIA DE IMBANA)</item>
+        <item>SABANILLA</item>
+        <item>TIMBARA</item>
+        <item>SAN CARLOS DE LAS MINAS</item>
+    </string-array>
+
+    <string-array name="chinchipe_parroquias">
+        <item>ZUMBA</item>
+        <item>CHITO</item>
+        <item>EL CHORRO</item>
+        <item>LA CHONTA</item>
+        <item>PUCAPAMBA</item>
+        <item>SAN  ANDRES</item>
+    </string-array>
+
+    <string-array name="nangaritza_parroquias">
+        <item>GUAYZIMI</item>
+        <item>ZURMI</item>
+        <item>NUEVO PARAISO</item>
+    </string-array>
+
+    <string-array name="yacuambi_parroquias">
+        <item>28 DE MAYO (SAN JOSE DE YACUAMBI)</item>
+        <item>LA PAZ</item>
+        <item>TUTUPALI</item>
+    </string-array>
+
+    <string-array name="yantzaza_parroquias">
+        <item>YANTZAZA (YANZATZA)</item>
+        <item>CHICAÑA</item>
+        <item>LOS ENCUENTROS</item>
+    </string-array>
+
+    <string-array name="elpangui_parroquias">
+        <item>EL PANGUI</item>
+        <item>EL GUISME</item>
+        <item>PACHICUTZA</item>
+        <item>TUNDAYME</item>
+    </string-array>
+
+    <string-array name="centineladelcondor_parroquias">
+        <item>ZUMBI</item>
+        <item>TRIUNFO-DORADO</item>
+        <item>PANGUINTZA</item>
+    </string-array>
+
+
+    <string-array name="palanda_parroquias">
+        <item>PALANDA</item>
+        <item>EL PORVENIR DEL CARMEN</item>
+        <item>SAN FRANCISCO DEL VERGEL</item>
+        <item>VALLADOLID</item>
+        <item>LA CANELA</item>
+    </string-array>
+
+    <string-array name="paquisha_parroquias">
+        <item>PAQUISHA</item>
+        <item>BELLAVISTA</item>
+        <item>NUEVO QUITO</item>
+    </string-array>
+
+    <!--GALAPAGOS -->
+
+    <string-array name="galapagos_cantones">
+        <item>SAN CRISTOBAL</item>
+        <item>ISABELA</item>
+        <item>SANTA CRUZ</item>
+    </string-array>
+
+    <string-array name="sancristobal_parroquias">
+        <item>PUERTO BAQUERIZO MORENO</item>
+        <item>EL PROGRESO</item>
+        <item>ISLA SANTA MARIA (FLOREANA) (CAB. EN  PTO. VELASCO IBARRA)</item>
+    </string-array>
+
+    <string-array name="isabela_parroquias">
+        <item>PUERTO VILLAMIL</item>
+        <item>TOMAS DE BERLANGA (SANTO TOMAS)</item>
+    </string-array>
+
+
+    <string-array name="santacruz_parroquias">
+        <item>PUERTO AYORA</item>
+        <item>BELLAVISTA</item>
+        <item>SANTA ROSA</item>
+    </string-array>
+
+    <!--SUCUMBIOS -->
+
+    <string-array name="sucumbios_cantones">
+        <item>LAGO AGRIO</item>
+        <item>GONZALO PIZARRO</item>
+        <item>PUTUMAYO</item>
+        <item>SHUSHUFINDI</item>
+        <item>SUCUMBIOS</item>
+        <item>CASCALES</item>
+        <item>CUYABENO</item>
+    </string-array>
+
+    <string-array name="lagoagrio_parroquias">
+        <item>NUEVA LOJA</item>
+        <item>DURENO</item>
+        <item>GENERAL FARFAN</item>
+        <item>EL ENO</item>
+        <item>PACAYACU</item>
+        <item>JAMBELÍ</item>
+        <item>SANTA CECILIA</item>
+        <item>10 DE AGOSTO</item>
+    </string-array>
+
+    <string-array name="gonzalopizarro_parroquias">
+        <item>LUMBAQUI</item>
+        <item>EL REVENTADOR</item>
+        <item>GONZALO PIZARRO</item>
+        <item>PUERTO LIBRE</item>
+    </string-array>
+
+
+    <string-array name="putumayo_parroquias">
+        <item>PUERTO EL CARMEN DEL PUTUMAYO</item>
+        <item>PALMA ROJA</item>
+        <item>PUERTO BOLIVAR (PUERTO MONTUFAR)</item>
+        <item>PUERTO RODRIGUEZ</item>
+        <item>SANTA ELENA</item>
+    </string-array>
+
+    <string-array name="shushufindi_parroquias">
+        <item>SHUSHUFINDI</item>
+        <item>LIMONCOCHA</item>
+        <item>PAÑACOCHA</item>
+        <item>SAN ROQUE (CAB. EN SAN VICENTE)</item>
+        <item>SAN PEDRO DE LOS COFANES</item>
+        <item>SIETE DE JULIO</item>
+    </string-array>
+
+    <string-array name="sucumbios_parroquias">
+        <item>LA BONITA</item>
+        <item>EL PLAYON DE SAN FRANCISCO</item>
+        <item>LA SOFIA</item>
+        <item>ROSA FLORIDA</item>
+        <item>SANTA BARBARA</item>
+    </string-array>
+
+    <string-array name="cascales_parroquias">
+        <item>EL DORADO DE CASCALES</item>
+        <item>SANTA ROSA DE SUCUMBIOS</item>
+        <item>SEVILLA</item>
+    </string-array>
+
+    <string-array name="cuyabeno_parroquias">
+        <item>TARAPOA</item>
+        <item>CUYABENO</item>
+        <item>AGUAS NEGRAS</item>
+    </string-array>
+
+
+    <!--ORELLANA -->
+
+    <string-array name="orellana_cantones">
+        <item>ORELLANA</item>
+        <item>AGUARICO</item>
+        <item>LA JOYA DE LOS SACHAS</item>
+        <item>LORETO</item>
+    </string-array>
+
+    <string-array name="orellana_parroquias">
+        <item>PUERTO FRANCISCO DE ORELLANA (EL COCA)</item>
+        <item>DAYUMA</item>
+        <item>TARACOA (NUEVA ESPERANZA: YUCA)</item>
+        <item>ALEJANDRO LABAKA</item>
+        <item>EL DORADO</item>
+        <item>EL EDEN</item>
+        <item>GARCIA MORENO</item>
+        <item>INES ARANGO (CAB. EN WESTERN)</item>
+        <item>LA BELLEZA</item>
+        <item>NUEVO PARAISO (CAB. EN UNION)</item>
+        <item>SAN JOSE DE GUAYUSA</item>
+        <item>SAN LUIS DE ARMENIA</item>
+    </string-array>
+
+    <string-array name="aguarico_parroquias">
+        <item>NUEVO ROCAFUERTE</item>
+        <item>CAPITAN AUGUSTO RIVADENEYRA</item>
+        <item>CONONACO</item>
+        <item>SANTA MARIA DE HUIRIRIMA</item>
+        <item>TIPUTINI</item>
+        <item>YASUNI</item>
+    </string-array>
+
+    <string-array name="lajoyadelossachas_parroquias">
+        <item>LA JOYA DE LOS SACHAS</item>
+        <item>ENOKANQUI</item>
+        <item>POMPEYA</item>
+        <item>SAN  CARLOS</item>
+        <item>SAN SEBASTIAN DEL COCA</item>
+        <item>LAGO SAN PEDRO</item>
+        <item>RUMIPAMBA</item>
+        <item>TRES DE NOVIEMBRE</item>
+        <item>UNION MILAGREÑA</item>
+    </string-array>
+
+    <string-array name="loreto_parroquias">
+        <item>LORETO</item>
+        <item>AVILA (CAB. EN HUIRUNO)</item>
+        <item>PUERTO MURIALDO</item>
+        <item>SAN JOSE DE PAYAMINO</item>
+        <item>SAN JOSE DE DAHUANO</item>
+        <item>SAN VICENTE DE HUATICOCHA</item>
+    </string-array>
+
+
+    <!--SANTO DOMINGO DE LOS TSACHILAS -->
+
+    <string-array name="santodomingotsachilas_cantones">
+        <item>SANTO DOMINGO</item>
+        <item>LA CONCORDIA</item>
+    </string-array>
+
+    <string-array name="santodomingo_parroquias">
+        <item>ABRAHAM CALAZACÓN</item>
+        <item>BOMBOLÍ</item>
+        <item>CHIGUILPE</item>
+        <item>RÍO TOACHI</item>
+        <item>RÍO VERDE</item>
+        <item>SANTO DOMINGO DE LOS COLORADOS</item>
+        <item>ZARACAY</item>
+        <item>ALLURIQUIN</item>
+        <item>PUERTO LIMON</item>
+        <item>LUZ DE AMERICA</item>
+        <item>SAN JACINTO DEL BUA</item>
+        <item>VALLE HERMOSO</item>
+        <item>EL ESFUERZO</item>
+        <item>SANTA MARIA DEL TOACHI</item>
+    </string-array>
+
+    <string-array name="laconcordia_parroquias">
+        <item>LA CONCORDIA</item>
+        <item>MONTERREY</item>
+        <item>LA VILLEGAS</item>
+        <item>PLAN PILOTO</item>
+    </string-array>
+
+    <!--SANTA ELENA -->
+
+    <string-array name="santaelena_cantones">
+        <item>SANTA ELENA</item>
+        <item>LA LIBERTAD</item>
+        <item>SALINAS</item>
+    </string-array>
+
+    <string-array name="santaelena_parroquias">
+        <item>BALLENITA</item>
+        <item>SANTA  ELENA</item>
+        <item>ATAHUALPA</item>
+        <item>COLONCHE</item>
+        <item>CHANDUY</item>
+        <item>MANGLARALTO</item>
+        <item>SIMON BOLIVAR (JULIO MORENO)</item>
+        <item>SAN JOSE DE ANCON</item>
+    </string-array>
+
+    <string-array name="lalibertad_parroquias">
+        <item>LA LIBERTAD</item>
+    </string-array>
+
+    <string-array name="salinas_parroquias">
+        <item>CARLOS ESPINOZA LARREA</item>
+        <item>GENERAL ALBERTO ENRÍQUEZ GALLO</item>
+        <item>VICENTE ROCAFUERTE</item>
+        <item>SANTA ROSA</item>
+        <item>ANCONCITO</item>
+        <item>JOSE LUIS TAMAYO (MUEY)</item>
+    </string-array>
+
+    <!--ZONAS EN ESTUDIO -->
+
+    <string-array name="zonasenestudio_cantones">
+        <item>LAS GOLONDRINAS</item>
+        <item>EL PIEDRERO</item>
+        <item>SANTA ROSA DE AGUA CLARA</item>
+        <item>JUVAL</item>
+        <item>ABDON CALDERON</item>
+        <item>MATILDE ESTHER</item>
+    </string-array>
+
+    <string-array name="lasgolondrinas_parroquias">
+        <item>LAS GOLONDRINAS</item>
+    </string-array>
+
+    <string-array name="elpiedrero_parroquias">
+        <item>EL PIEDRERO</item>
+    </string-array>
+
+    <string-array name="sanrosadeaguaclara_parroquias">
+        <item>SANTA ROSA DE AGUA CLARA</item>
+    </string-array>
+
+    <string-array name="juval_parroquias">
+        <item>JUVAL</item>
+    </string-array>
+
+    <string-array name="abdoncalderon_parroquias">
+        <item>ABDON CALDERON</item>
+    </string-array>
+
+    <string-array name="matildeesther_parroquias">
+        <item>MATILDE ESTHER</item>
+    </string-array>
+
 
 
 </resources>
