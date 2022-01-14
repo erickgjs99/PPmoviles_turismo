@@ -12,11 +12,10 @@ import kotlinx.android.synthetic.main.activity_form_datos_generales.*
 
 class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener {
 
-    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_form_datos_generales)
 
         val opciones = resources.getStringArray(R.array.categoria)
@@ -64,7 +63,7 @@ class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener 
                 onItemClickListener = this@FormDatosGenerales
             }
         }
-        //Subtipo por cada tipo
+        //Subtipo por cada tipo - Atractivos
         if(item == "Montañas"){
             val subTipo_montanas = resources.getStringArray(R.array.subTipo_montanas)
             val adapter6 = ArrayAdapter(
@@ -109,7 +108,156 @@ class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener 
                 setAdapter(adapter5)
                 onItemClickListener = this@FormDatosGenerales
             }
+        }else if (item == "Rios"){
+            val subTipo_rios = resources.getStringArray(R.array.subTipo_Rios)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_rios
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+            // DESDE CAMBIAR FORMULARIO
+        }else if (item == "Bosques"){
+            val subTipo_rios = resources.getStringArray(R.array.subTipo_Rios)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_rios
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
         }
+        else if (item == "Aguas Subterráneas"){
+            val subTipo_rios = resources.getStringArray(R.array.subTipo_Rios)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_rios
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }else if (item == "Fenómenos Espeleológicos"){
+            val subTipo_rios = resources.getStringArray(R.array.subTipo_Rios)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_rios
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }else if (item == "Fenómenos Geológicos"){
+            val subTipo_rios = resources.getStringArray(R.array.subTipo_Rios)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_rios
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }else if (item == "Costas o Litorales"){
+            val subTipo_rios = resources.getStringArray(R.array.subTipo_Rios)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_rios
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }else if (item == "Ambientes Marinos"){
+            val subTipo_rios = resources.getStringArray(R.array.subTipo_Rios)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_rios
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }else if (item == "Tierras Isulares"){
+            val subTipo_rios = resources.getStringArray(R.array.subTipo_Rios)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_rios
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }
+        //Subtipo por cada tipo - Manifestaciones
+        if(item == "Arquitectura"){
+            val subTipo_montanas = resources.getStringArray(R.array.subTipo_montanas)
+            val adapter6 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_montanas
+            )
+            with(subtipo){
+                setAdapter(adapter6)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }else if (item == "Folcklore"){
+            val subTipo_rios = resources.getStringArray(R.array.subTipo_Rios)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_rios
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }else if (item == "Folcklore"){
+            val subTipo_rios = resources.getStringArray(R.array.subTipo_Rios)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_rios
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }else if (item == "Realizaciones técnicas y científicas"){
+            val subTipo_rios = resources.getStringArray(R.array.subTipo_Rios)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_rios
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }else if (item == "Acontecimientos programados"){
+            val subTipo_rios = resources.getStringArray(R.array.subTipo_Rios)
+            val adapter5 = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                subTipo_rios
+            )
+            with(subtipo){
+                setAdapter(adapter5)
+                onItemClickListener = this@FormDatosGenerales
+            }
+        }
+
+
 
     }
 }
