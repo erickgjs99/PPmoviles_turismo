@@ -44,46 +44,63 @@
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="63dp"
                 android:gravity="center"
-                android:text="Características Climatológicas"
+                android:text="Clima"
                 android:textSize="24sp" />
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="28dp">
+                android:layout_height="wrap_content">
 
             </FrameLayout>
 
-            <com.google.android.material.textfield.TextInputEditText
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </com.google.android.material.textfield.TextInputEditText>
+                android:layout_height="wrap_content"
+                android:hint="Nombre del Atractivo Turístico">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="550dp"/>
+                android:layout_height="10dp">
+
+            </FrameLayout>
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+            </FrameLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/btn_regresarClima"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Regresar" />
 
-                <Button
-                    android:id="@+id/btn_siguienteClima"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:backgroundTint="#CB3141"
-                    android:text="Siguiente"
-                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
         </LinearLayout>
