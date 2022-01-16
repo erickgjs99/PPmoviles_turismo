@@ -7,7 +7,6 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
-import com.example.ppmoviles.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_form_datos_generales.*
 
 class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener {
