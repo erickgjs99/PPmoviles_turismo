@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
-        tools:context=".UbicacionActivity">
+        tools:context=".InformacionAdmin">
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -160,7 +160,7 @@
                 android:id="@+id/correoAdmin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Teléfono/Corrreo Electrónico">
+                android:hint="Correo Electónico">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -177,7 +177,7 @@
                 android:id="@+id/observaciones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Teléfono/Observaciones">
+                android:hint="Observaciones">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -195,21 +195,20 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
+
                 <Button
-                    android:id="@+id/btn_regresarUbicacion"
+                    android:id="@+id/btn_regresarInformacionAdmin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Regresar" />
 
                 <Button
-                    android:id="@+id/btn_siguienteUbicacion"
+                    android:id="@+id/btn_siguienteInformacionAdmin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:backgroundTint="#CB3141"
-                    android:text="Siguiente"
-                    android:textColor="#FFFFFF" />
+                    android:text="Siguiente" />
             </LinearLayout>
 
         </LinearLayout>

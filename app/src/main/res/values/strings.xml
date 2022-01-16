@@ -419,7 +419,7 @@
         <item>JUAN MONTALVO (SAN IGNACIO DE QUIL)</item>
     </string-array>
 
-    <string-array name="montufar_parroquias">
+    <string-array name="montufar_parroquias2">
         <item>GONZÁLEZ SUÁREZ.</item>
         <item>SAN JOSÉ</item>
         <item>CRISTOBAL COLON</item>
@@ -1017,7 +1017,7 @@
     </string-array>
 
 
-    <string-array name="simonbolivar_parroquias">
+    <string-array name="simonbolivar_parroquias2">
         <item>SIMON BOLIVAR</item>
         <item>CORONEL LORENZO DE GARAICOA (PEDREGAL)</item>
     </string-array>
@@ -1462,7 +1462,7 @@
         <item>CHIRIJOS</item>
     </string-array>
 
-    <string-array name="bolivar_parroquias" tools:ignore="DuplicateDefinition">
+    <string-array name="bolivar_parroquias3" tools:ignore="DuplicateDefinition">
         <item>CALCETA</item>
         <item>MEMBRILLO</item>
         <item>QUIROGA</item>

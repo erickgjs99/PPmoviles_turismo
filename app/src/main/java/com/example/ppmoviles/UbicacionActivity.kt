@@ -51,7 +51,7 @@ class UbicacionActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
             startActivity(Intent(this, FormDatosGenerales::class.java))
         }
         btn_siguienteUbicacion.setOnClickListener(){
-            startActivity(Intent(this, ClimaActivity::class.java))
+            startActivity(Intent(this, InformacionAdmin::class.java))
         }
 
         // Ubicacion - latitud y longitug
@@ -85,20 +85,9 @@ class UbicacionActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
                             // Presentar las coordenadas
                             lbllatitud.text = location.latitude.toString()
                             lbllongitud.text = location.longitude.toString()
-                            // Obtener ubicacion
-                            var cityName = ""
-                            var countryName = ""
-                            var provincia = ""
-                            var postal = ""
                             // Geocoder - Clase de codificacion geografica
                             var geoCoder = Geocoder(this, Locale.getDefault())
                             var Adress = geoCoder.getFromLocation(location.latitude,location.longitude,3)
-                            cityName = Adress.get(0).locality //Ciudad
-                            countryName = Adress.get(0).countryName // Pais
-                            provincia = Adress.get(0).adminArea // Provincia  o Estado
-                            postal = Adress.get(0).postalCode // Código postal
-                            //lblUbicacion.text = countryName +", "+ provincia+ ", "+cityName+" - "+ postal
-
                         }
                     }
 
