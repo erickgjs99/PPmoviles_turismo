@@ -46,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Características del Atractivo"
+                android:text="Información del Administrador"
                 android:textSize="24sp" />
 
             <FrameLayout
@@ -71,7 +71,7 @@
                 android:id="@+id/clima"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Clima">
+                android:hint="Tipo de administrador">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -89,7 +89,7 @@
                 android:id="@+id/temperatura"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Temperatura">
+                android:hint="Nombre de la Institución">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -107,7 +107,7 @@
                 android:id="@+id/prepPluviometrica"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Precipitación Pluviométrica (mm)">
+                android:hint="Nombre del administrador">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -123,19 +123,16 @@
 
             </FrameLayout>
             <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:id="@+id/cargo"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:startIconDrawable="@drawable/ic_options">
+                android:layout_height="wrap_content"
+                android:hint="Cargo que ocupa">
 
-                <AutoCompleteTextView
-                    android:id="@+id/lineaproducto"
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Linea de producto del atractivo"
-                    android:inputType="none">
+                    android:layout_height="wrap_content">
 
-                </AutoCompleteTextView>
+                </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
             <FrameLayout
                 android:layout_width="match_parent"
@@ -143,19 +140,50 @@
 
             </FrameLayout>
             <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:id="@+id/telefono"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:startIconDrawable="@drawable/ic_options">
+                android:layout_height="wrap_content"
+                android:hint="Teléfono/Celular">
 
-                <AutoCompleteTextView
-                    android:id="@+id/escenarioAtractivo"
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Escenario donde se localiza el atractivo"
-                    android:inputType="none">
+                    android:layout_height="wrap_content">
 
-                </AutoCompleteTextView>
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/correoAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Teléfono/Corrreo Electrónico">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/observaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Teléfono/Observaciones">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
 
             <FrameLayout

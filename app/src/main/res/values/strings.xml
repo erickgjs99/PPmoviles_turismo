@@ -60,7 +60,7 @@
     </string-array>
 
     <!--Ubicacion -->
-    <string-array name="provincias">
+    <string-array name="provincias2">
         <item>Río</item>
         <item>Riachuelo</item>
         <item>Rápido</item>
@@ -508,7 +508,6 @@
     </string-array>
 
 
-
     <string-array name="sigchos_parroquias">
         <item>SIGCHOS</item>
         <item>CHUGCHILLAN</item>
@@ -516,7 +515,6 @@
         <item>LAS PAMPAS</item>
         <item>PALO QUEMADO</item>
     </string-array>
-
 
 
     <!--CHIMBORAZO -->
@@ -1126,8 +1124,6 @@
         <item>SAN  BLAS</item>
         <item>TUMBABIRO</item>
     </string-array>
-
-
 
 
     <!--LOJA -->
@@ -2390,6 +2386,23 @@
         <item>MATILDE ESTHER</item>
     </string-array>
 
+    <!-- Línea de producto al que pertenece el atractivo -->
+
+    <string-array name="lineaproducto">
+        <item>Cultura</item>
+        <item>Naturaleza</item>
+        <item>Aventura</item>
+    </string-array>
+
+    <!--  Escenario donde se localiza el atractivo turístico -->
+
+    <string-array name="escenarioturistico">
+        <item>Prístino</item>
+        <item>Primitivo</item>
+        <item>Rústico Natural</item>
+        <item>Rural</item>
+        <item>Urbano</item>
+    </string-array>
 
 
 </resources>
