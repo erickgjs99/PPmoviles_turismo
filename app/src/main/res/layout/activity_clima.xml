@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
-        tools:context=".UbicacionActivity">
+        tools:context=".ClimaActivity">
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -29,74 +29,74 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="180dp"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/portada" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/portada" />
 
-            <FrameLayout
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Características del Atractivo"
+            android:textSize="24sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+
+        </FrameLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/clima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Clima">
+
+            <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="25dp">
+                android:layout_height="wrap_content">
 
-            </FrameLayout>
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
 
-            <TextView
-                android:id="@+id/textView4"
+        </FrameLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/temperatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Temperatura">
+
+            <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Características del Atractivo"
-                android:textSize="24sp" />
+                android:layout_height="wrap_content">
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="10dp">
-
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="10dp">
-
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="10dp">
-
-            </FrameLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/clima"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Clima">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </com.google.android.material.textfield.TextInputEditText>
-            </com.google.android.material.textfield.TextInputLayout>
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="10dp">
-
-            </FrameLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/temperatura"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Temperatura">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </com.google.android.material.textfield.TextInputEditText>
-            </com.google.android.material.textfield.TextInputLayout>
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -115,76 +115,30 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
-
-
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
             <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:startIconDrawable="@drawable/ic_options">
 
                 <AutoCompleteTextView
-                    android:id="@+id/lineaproducto"
+                    android:id="@+id/holis"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Linea de producto del atractivo"
-                    android:inputType="none">
-
-                </AutoCompleteTextView>
-            </com.google.android.material.textfield.TextInputLayout>
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="10dp">
-
-            </FrameLayout>
-            <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:startIconDrawable="@drawable/ic_options">
-
-                <AutoCompleteTextView
-                    android:id="@+id/escenarioAtractivo"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Escenario donde se localiza el atractivo"
-                    android:inputType="none">
-
+                    android:inputType="none"
+                    android:hint="Linea de producto del atractivo">
                 </AutoCompleteTextView>
             </com.google.android.material.textfield.TextInputLayout>
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="103dp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/btn_regresarUbicacion"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Regresar" />
-
-                <Button
-                    android:id="@+id/btn_siguienteUbicacion"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:backgroundTint="#CB3141"
-                    android:text="Siguiente"
-                    android:textColor="#FFFFFF" />
-            </LinearLayout>
 
         </LinearLayout>
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

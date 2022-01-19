@@ -1,37 +1,18 @@
 package com.example.ppmoviles
-
-import android.Manifest
-import android.annotation.SuppressLint
-import android.content.Context
 import android.content.Intent
-import android.content.pm.PackageManager
-import android.location.Geocoder
-import android.location.Location
-import android.location.LocationManager
 import androidx.appcompat.app.AppCompatActivity
-import com.example.ppmoviles.databinding.ActivityUbicacionBinding
 import android.os.Bundle
-import android.os.Looper
-import android.provider.Settings
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
-import com.google.android.gms.location.LocationServices
 import com.google.android.gms.location.*
 import kotlinx.android.synthetic.main.activity_form_datos_generales.*
 import kotlinx.android.synthetic.main.activity_ubicacion.*
-import com.google.android.gms.location.FusedLocationProviderClient
 import java.util.*
 
 class UbicacionActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
 
-    // Variables para la ubicacion
-    lateinit var mFusedLocationClient: FusedLocationProviderClient
-    //Determinamos un permiso para la API
-    val PERMISSION_ID = 42
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
@@ -54,95 +35,316 @@ class UbicacionActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
             startActivity(Intent(this, InformacionAdmin::class.java))
         }
 
-        // Ubicacion - latitud y longitug
-        if (allPermissionsGrantedGPS()){
-            mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
-        } else {
-            // Si no hay permisos solicitarlos al usuario.
-            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION), PERMISSION_ID)
-        }
-        btndetectar.setOnClickListener {
-            leerubicacionactual()
-        }
 
     }
-    private fun allPermissionsGrantedGPS() = REQUIRED_PERMISSIONS_GPS.all {
-        ContextCompat.checkSelfPermission(baseContext, it) == PackageManager.PERMISSION_GRANTED
-    }
-
-    private fun leerubicacionactual(){
-        //Evaluar los permiso de la app
-        if (checkPermissions()){
-            // Evaluar activacion de la ubicacion
-            if (isLocationEnabled()){
-                // Evaluar los permisos del usuario
-                if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-                    mFusedLocationClient.lastLocation.addOnCompleteListener(this){ task ->
-                        var location: Location? = task.result
-                        if (location == null){
-                            requestNewLocationData()
-                        } else {
-                            // Presentar las coordenadas
-                            lbllatitud.text = location.latitude.toString()
-                            lbllongitud.text = location.longitude.toString()
-                            // Geocoder - Clase de codificacion geografica
-                            var geoCoder = Geocoder(this, Locale.getDefault())
-                            var Adress = geoCoder.getFromLocation(location.latitude,location.longitude,3)
-                        }
-                    }
-
-                }
-            } else {
-                Toast.makeText(this, "Activar ubicación", Toast.LENGTH_SHORT).show()
-                val intent = Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS)
-                startActivity(intent)
-                this.finish()
-            }
-        } else {
-            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION), PERMISSION_ID)
-        }
-    }
-    @SuppressLint("MissingPermission")
-    // Obtener actualizaciones de ubicacion
-    private fun requestNewLocationData(){
-        var mLocationRequest = LocationRequest()
-        mLocationRequest.priority = LocationRequest.PRIORITY_HIGH_ACCURACY
-        mLocationRequest.interval = 0
-        mLocationRequest.fastestInterval = 0
-        mLocationRequest.numUpdates = 1
-        mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
-        //mFusedLocationClient.requestLocationUpdates(mLocationRequest, mLocationCallBack, Looper.myLooper())
-    }
-    // Constructor - Evalua cambios en la disponibilidad de los datos de ubicacion
-    private val mLocationCallBack = object : LocationCallback(){
-        override fun onLocationResult(locationResult: LocationResult) {
-            var mLastLocation : Location = locationResult.lastLocation
-        }
-    }
-    // Permiso si el GPS esta habilitada
-    private fun isLocationEnabled(): Boolean {
-        var locationManager: LocationManager = getSystemService(Context.LOCATION_SERVICE) as LocationManager
-        return locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER) || locationManager.isProviderEnabled(
-            LocationManager.NETWORK_PROVIDER
-        )
-    }
-    // Verificar permisos de la aplicacion que fueron implementados
-    private fun checkPermissions(): Boolean {
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED &&
-            ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
-        ) {
-            return true
-        }
-        return false
-    }
-    // Recibe los permisos
-    companion object {
-        private val REQUIRED_PERMISSIONS_GPS= arrayOf(Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION)
-    }
-
-
 
     override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-        TODO("Not yet implemented")
+        val item = parent?.getItemAtPosition(position).toString()
+        Toast.makeText(this@UbicacionActivity, item, Toast.LENGTH_SHORT).show()
+        if (item == "AZUAY") {
+            var cantones = resources.getStringArray(R.array.azuay_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "BOLIVAR"){
+            val cantones = resources.getStringArray(R.array.bolivar_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "CAÑAR"){
+            val cantones = resources.getStringArray(R.array.canar_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "CARCHI"){
+            val cantones = resources.getStringArray(R.array.carchi_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "COTOPAXI"){
+            val cantones = resources.getStringArray(R.array.cotopaxi_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "CHIMBORAZO"){
+            val cantones = resources.getStringArray(R.array.chimborazo_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "El ORO"){
+            val cantones = resources.getStringArray(R.array.eloro_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "ESMERALDAS"){
+            val cantones = resources.getStringArray(R.array.esmeraldas_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "GUAYAS"){
+            val cantones = resources.getStringArray(R.array.guayas_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "IMBABURA"){
+            val cantones = resources.getStringArray(R.array.imbabura_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "LOJA"){
+            val cantones = resources.getStringArray(R.array.loja_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "LOS RIOS"){
+            val cantones = resources.getStringArray(R.array.losrios_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "MANABI"){
+            val cantones = resources.getStringArray(R.array.manabi_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "MORONA SANTIAGO"){
+            val cantones = resources.getStringArray(R.array.moronasantiago_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "NAPO"){
+            val cantones = resources.getStringArray(R.array.napo_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "PASTAZA"){
+            val cantones = resources.getStringArray(R.array.pastaza_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "PICHINCHA"){
+            val cantones = resources.getStringArray(R.array.pichicha_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "TUNGURAGUA"){
+            val cantones = resources.getStringArray(R.array.tungurahua_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "ZAMORA CHINCHIPE"){
+            val cantones = resources.getStringArray(R.array.zamorachinchipe_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "GALAPAGOS"){
+            val cantones = resources.getStringArray(R.array.galapagos_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "SUCUMBIOS"){
+            val cantones = resources.getStringArray(R.array.sucumbios_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "ORELLANA"){
+            val cantones = resources.getStringArray(R.array.orellana_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "SANTO DOMINGO DE LOS TSACHILAS"){
+            val cantones = resources.getStringArray(R.array.santodomingotsachilas_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "SANTA ELENA"){
+            val cantones = resources.getStringArray(R.array.santaelena_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "ZONAS EN ESTUDIO"){
+            val cantones = resources.getStringArray(R.array.zonasenestudio_cantones)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                cantones
+            )
+            with(canton) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }
+
+        // Parroquias
+
+        if(item == "CUENCA"){
+            val parroquias = resources.getStringArray(R.array.cuenca_parroquias)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                parroquias
+            )
+            with(parroquia) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }else if(item == "GIRON"){
+            val parroquias = resources.getStringArray(R.array.giron_parroquias)
+            val adapter = ArrayAdapter(
+                this,
+                R.layout.list_item,
+                parroquias
+            )
+            with(parroquia) {
+                setAdapter(adapter)
+                onItemClickListener = this@UbicacionActivity
+            }
+        }
+
+
+
     }
 }
