@@ -12,6 +12,13 @@ class ClimaActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_clima)
 
+        btn_regresarClima.setOnClickListener(){
+            startActivity(Intent(this, InformacionAdmin::class.java))
+        }
+        btn_siguienteClima.setOnClickListener(){
+            startActivity(Intent(this, IngresoAtractivo::class.java))
+        }
+
     }
 
     override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {

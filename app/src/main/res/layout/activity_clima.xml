@@ -20,7 +20,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="17dp"
-            android:layout_marginTop="10dp"
             android:layout_marginEnd="17dp"
             android:layout_marginBottom="10dp"
             android:orientation="vertical"
@@ -29,74 +28,76 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/portada" />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/portada" />
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="25dp">
-
-        </FrameLayout>
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Características del Atractivo"
-            android:textSize="24sp" />
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="10dp">
-
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="10dp">
-
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="10dp">
-
-        </FrameLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/clima"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Clima">
-
-            <com.google.android.material.textfield.TextInputEditText
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="25dp">
 
-            </com.google.android.material.textfield.TextInputEditText>
-        </com.google.android.material.textfield.TextInputLayout>
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="10dp">
+            </FrameLayout>
 
-        </FrameLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/temperatura"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Temperatura">
-
-            <com.google.android.material.textfield.TextInputEditText
+            <TextView
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Características del Atractivo"
+                android:textSize="24sp" />
 
-            </com.google.android.material.textfield.TextInputEditText>
-        </com.google.android.material.textfield.TextInputLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/clima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Clima">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/temperatura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Temperatura">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -115,28 +116,88 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:startIconDrawable="@drawable/ic_options">
 
-                <AutoCompleteTextView
-                    android:id="@+id/holis"
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/lineaProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Línea de producto al que pertenece el atractivo (U)">
+
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="none"
-                    android:hint="Linea de producto del atractivo">
-                </AutoCompleteTextView>
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
 
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/escenarioAtractivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Escenario donde se localiza el atractivo turístico">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/btn_regresarClima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#B8B5B5"
+                    android:textColor="#000000"
+                    android:text="Regresar" />
+                <FrameLayout
+                    android:layout_width="10dp"
+                    android:layout_height="1dp">
+                </FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_siguienteClima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Siguiente"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#CB3141"/>
+            </LinearLayout>
 
 
         </LinearLayout>
+
 
 
 

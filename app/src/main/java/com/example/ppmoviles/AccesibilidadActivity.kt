@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_accesibilidad.*
-import kotlinx.android.synthetic.main.activity_clima.*
 
 class AccesibilidadActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +12,7 @@ class AccesibilidadActivity : AppCompatActivity() {
         btn_regresarAccesibilidad.setOnClickListener(){
             startActivity(Intent(this, ClimaActivity::class.java))
         }
-        btn_siguienteAccesibilidad.setOnClickListener(){
+        btn_siguienteIngAtractivo.setOnClickListener(){
             startActivity(Intent(this, AcTemporalidadActivity::class.java))
         }
     }

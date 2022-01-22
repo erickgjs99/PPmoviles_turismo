@@ -201,6 +201,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:backgroundTint="#B8B5B5"
+                    android:textColor="#000000"
                     android:text="Regresar" />
 
                 <Button
@@ -208,7 +210,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Siguiente" />
+                    android:text="Siguiente"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#CB3141"/>
             </LinearLayout>
 
         </LinearLayout>
