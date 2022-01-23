@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".OptionsAccesibilidad"
+            android:exported="false" />
+        <activity
             android:name=".IngresoAtractivo"
             android:exported="false" />
         <activity

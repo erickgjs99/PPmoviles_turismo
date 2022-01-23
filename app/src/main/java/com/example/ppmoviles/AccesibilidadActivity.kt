@@ -10,7 +10,7 @@ class AccesibilidadActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_accesibilidad)
         btn_regresarAccesibilidad.setOnClickListener(){
-            startActivity(Intent(this, ClimaActivity::class.java))
+            startActivity(Intent(this, IngresoAtractivo::class.java))
         }
         btn_siguienteIngAtractivo.setOnClickListener(){
             startActivity(Intent(this, AcTemporalidadActivity::class.java))

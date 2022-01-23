@@ -14,7 +14,7 @@ class IngresoAtractivo : AppCompatActivity() {
 
         }
         btn_siguienteIngAtractivo.setOnClickListener(){
-            startActivity(Intent(this, AccesibilidadActivity::class.java))
+            startActivity(Intent(this, OptionsAccesibilidad::class.java))
 
         }
     }
