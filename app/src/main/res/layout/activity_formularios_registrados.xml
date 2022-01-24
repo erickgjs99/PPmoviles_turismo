@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#FFFFFF"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#FFFFFF"
+        android:padding="16dp"
+        tools:context=".FormulariosRegistrados">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/portada" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:gravity="center"
+                android:text="Formularios Registrados"
+                android:textSize="24sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gris"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Formulario 1"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Creado por:         Usuario 1"
+                        android:layout_below="@+id/t1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Estado:                En Proceso"
+                        android:layout_below="@+id/t1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="25dp">
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="89dp"
+                        android:layout_height="65dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="26dp"
+                        android:layout_marginTop="10dp"
+                        android:maxHeight="50dp"
+                        android:src="@drawable/form">
+
+                    </ImageView>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gris"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Formulario 2"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Creado por:         Usuario 2"
+                        android:layout_below="@+id/t2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Estado:                En Proceso"
+                        android:layout_below="@+id/t2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="25dp">
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="89dp"
+                        android:layout_height="65dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="26dp"
+                        android:layout_marginTop="10dp"
+                        android:maxHeight="50dp"
+                        android:src="@drawable/form">
+
+                    </ImageView>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gris"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Formulario 3"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Creado por:         Usuario 3"
+                        android:layout_below="@+id/t3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Estado:                Finalizado"
+                        android:layout_below="@+id/t3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="25dp">
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="89dp"
+                        android:layout_height="65dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="26dp"
+                        android:layout_marginTop="10dp"
+                        android:maxHeight="50dp"
+                        android:src="@drawable/form">
+
+                    </ImageView>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gris"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/t4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Formulario 4"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Creado por:         Usuario 4"
+                        android:layout_below="@+id/t4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Estado:                Finalizado"
+                        android:layout_below="@+id/t4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="25dp">
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="89dp"
+                        android:layout_height="65dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="26dp"
+                        android:layout_marginTop="10dp"
+                        android:maxHeight="50dp"
+                        android:src="@drawable/form">
+
+                    </ImageView>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="30dp">
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/btn_regresarFormR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#CB3141"
+                    android:text="Regresar"
+                    android:textColor="#FFFFFF" />
+
+                <FrameLayout
+                    android:layout_width="10dp"
+                    android:layout_height="1dp">
+                </FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_NuevoFormularioFormR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#CB3141"
+                    android:text="Nuevo Formulario"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

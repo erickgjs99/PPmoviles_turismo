@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".FormulariosRegistrados"
+            android:exported="false" />
+        <activity
+            android:name=".OptionsPlantaTuristica"
+            android:exported="false" />
+        <activity
             android:name=".OptionsAccesibilidad"
             android:exported="false" />
         <activity

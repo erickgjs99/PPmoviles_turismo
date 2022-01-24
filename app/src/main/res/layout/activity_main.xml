@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/portada" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn_formRegistrados"
         android:layout_width="311dp"
         android:layout_height="78dp"
         android:backgroundTint="#CB3141"

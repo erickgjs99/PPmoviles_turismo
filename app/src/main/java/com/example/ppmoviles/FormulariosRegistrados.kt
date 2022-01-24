@@ -3,20 +3,18 @@ package com.example.ppmoviles
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_formularios_registrados.*
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class FormulariosRegistrados : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        btn_nuevoFormulario.setOnClickListener(){
+        setContentView(R.layout.activity_formularios_registrados)
+        btn_NuevoFormularioFormR.setOnClickListener(){
             startActivity(Intent(this,FormDatosGenerales::class.java))
-
         }
-        btn_formRegistrados.setOnClickListener(){
-            startActivity(Intent(this,FormulariosRegistrados::class.java))
+        btn_regresarFormR.setOnClickListener(){
+            startActivity(Intent(this,MainActivity::class.java))
         }
     }
 }
