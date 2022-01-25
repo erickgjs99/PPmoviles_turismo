@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
-        tools:context=".OptionsAccesibilidad">
+        tools:context=".OptionsConservacionAtractivo">
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -45,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="63dp"
                 android:gravity="center"
-                android:text="Accesibilidad y conectividad al Atractivo"
+                android:text="Conservación e Integración Atractivo/ Entorno"
                 android:textSize="24sp" />
 
             <FrameLayout
@@ -60,27 +60,27 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_optionsNo"
+                    android:id="@+id/btn_no"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="0.5"
                     android:backgroundTint="#B8B5B5"
                     android:text="NO" />
 
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.5">
-                </FrameLayout>
+                    android:layout_weight="0.5"></FrameLayout>
 
                 <Button
-                    android:id="@+id/btn_optionsSi"
+                    android:id="@+id/btn_si"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="0.5"
                     android:textColor="#FFFFFF"
                     android:backgroundTint="#CB3141"
                     android:text="SI" />
+
             </LinearLayout>
 
         </LinearLayout>

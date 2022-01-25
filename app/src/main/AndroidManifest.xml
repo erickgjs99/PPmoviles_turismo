@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ppmoviles">
+    package="com.example.ppmoviles" >
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -11,10 +11,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name=".IntegracionAtractivo"
+            android:exported="false" />
         <activity
             android:name=".AuthActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +28,7 @@
             android:name=".FormulariosRegistrados"
             android:exported="false" />
         <activity
-            android:name=".OptionsPlantaTuristica"
+            android:name=".OptionsConservacionAtractivo"
             android:exported="false" />
         <activity
             android:name=".OptionsAccesibilidad"
@@ -60,8 +63,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/splash">
-
+            android:theme="@style/splash" >
         </activity>
     </application>
 
