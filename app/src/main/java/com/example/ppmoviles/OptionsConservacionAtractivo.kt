@@ -9,6 +9,9 @@ class OptionsConservacionAtractivo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_options_conservacion_atractivo)
+        btn_no.setOnClickListener(){
+            startActivity(Intent(this, OptionsHigieneTuristica::class.java))
+        }
         btn_si.setOnClickListener(){
             startActivity(Intent(this, IntegracionAtractivo::class.java))
         }
