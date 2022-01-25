@@ -13,7 +13,7 @@ class AccesibilidadActivity : AppCompatActivity() {
             startActivity(Intent(this, IngresoAtractivo::class.java))
         }
         btn_siguienteIngAtractivo.setOnClickListener(){
-            startActivity(Intent(this, AcTemporalidadActivity::class.java))
+            startActivity(Intent(this, OptionsConservacionAtractivo::class.java))
         }
     }
 }
