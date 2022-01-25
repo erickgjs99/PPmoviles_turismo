@@ -8,14 +8,19 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_form_datos_generales.*
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 
 class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener {
 
-
+    private val db = FirebaseFirestore.getInstance()
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_form_datos_generales)
+        val bundle:Bundle?=intent.extras
+        val email:String? = bundle?.getString("email")
+        val provider:String? = bundle?.getString("provider")
 
         val opciones = resources.getStringArray(R.array.categoria)
         val adapter = ArrayAdapter(
@@ -27,6 +32,10 @@ class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener 
             setAdapter(adapter)
             onItemClickListener = this@FormDatosGenerales
         }
+
+
+        setup(email?:"", provider?:"")
+
         btn_regresarDatos.setOnClickListener(){
             startActivity(Intent(this, MainActivity::class.java))
         }
@@ -34,6 +43,16 @@ class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener 
             startActivity(Intent(this, UbicacionActivity::class.java))
         }
     }
+    private fun setup(email:String, provider:String){
+        btn_guardar.setOnClickListener(){
+            db.collection("users").document(email).set(
+                hashMapOf("provider" to provider,"nombre del atractivo" to t_nombreAtractivo)
+            )
+            var txt1 = "Datos Guardados"
+            Toast.makeText(applicationContext,txt1, Toast.LENGTH_LONG).show()
+        }
+    }
+
 
     override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
         val item = parent?.getItemAtPosition(position).toString()
