@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
-        tools:context=".IntegracionAtractivo">
+        tools:context=".ActividadesPractican">
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -46,47 +46,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="81dp"
                 android:gravity="center"
-                android:text="Estado Conservación e Integración Atractivo/Entorno"
+                android:text="Actividades que se practican"
                 android:textSize="24sp" />
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="18dp" />
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/estadoAtractivo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Cuál es el estado del atractivo?">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </com.google.android.material.textfield.TextInputEditText>
-            </com.google.android.material.textfield.TextInputLayout>
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="10dp">
-
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="10dp">
-
-            </FrameLayout>
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="10dp">
-
-            </FrameLayout>
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="left"
-                android:text="Factores de alteración y deterioro(M)"
+                android:text="Atractivos Naturales"
                 android:textSize="20sp"
                 android:textStyle="bold" />
             <FrameLayout
@@ -99,7 +72,86 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="left"
-                android:text="Naturales"
+                android:text="En el agua"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+
+            <CheckBox
+                android:id="@+id/buceo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="buceo" />
+            <CheckBox
+                android:id="@+id/kayakMar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Kayak de mar" />
+            <CheckBox
+                android:id="@+id/kayakLacu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Kayak lacustre" />
+            <CheckBox
+                android:id="@+id/surf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Surf" />
+            <CheckBox
+                android:id="@+id/rafting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Rafting" />
+            <CheckBox
+                android:id="@+id/snorkel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Snorkel" />
+            <CheckBox
+                android:id="@+id/otro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Otro" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/observaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Observaciones:">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="En el aire"
                 android:textSize="16sp"
                 android:textStyle="bold" />
             <FrameLayout
@@ -109,37 +161,25 @@
             </FrameLayout>
 
             <CheckBox
-                android:id="@+id/op_erosion"
+                android:id="@+id/alasdelta"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Erosión" />
+                android:text="Alas Delta" />
             <CheckBox
-                android:id="@+id/op_humedad"
+                android:id="@+id/canopy"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Humedad" />
+                android:text="Canopy" />
             <CheckBox
-                android:id="@+id/op_desastresnaturales"
+                android:id="@+id/parapente"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Desastres Naturales" />
+                android:text="Parapente" />
             <CheckBox
-                android:id="@+id/op_flora_fauna"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Flora/Fauna" />
-            <CheckBox
-                android:id="@+id/op_clima"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Clima" />
-            <CheckBox
-                android:id="@+id/op_otro"
+                android:id="@+id/otro2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
@@ -167,11 +207,11 @@
 
             </FrameLayout>
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="left"
-                android:text="Antrópicos/Antropogénicos"
+                android:text="En superficie terrestre"
                 android:textSize="16sp"
                 android:textStyle="bold" />
             <FrameLayout
@@ -179,44 +219,51 @@
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
-                android:id="@+id/op_actagricolas"
+                android:id="@+id/montanismo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Actividades agrícolas y ganaderas" />
+                android:text="Montañismo" />
             <CheckBox
-                android:id="@+id/op_actindust"
+                android:id="@+id/escalada"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Actividades  industriales" />
+                android:text="Escalada" />
             <CheckBox
-                android:id="@+id/op_actintenencia"
+                android:id="@+id/senderismo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Conflicto de tenencia" />
+                android:text="Senderismo" />
             <CheckBox
-                android:id="@+id/op_actcontambiente"
+                android:id="@+id/cicloturismo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Contaminación del ambiente" />
+                android:text="Cicloturismo" />
             <CheckBox
-                android:id="@+id/op_actforestales"
+                android:id="@+id/canyoning"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Actividades forestales" />
+                android:text="Canyoning" />
             <CheckBox
-                android:id="@+id/op_vandalismo"
+                android:id="@+id/caminata"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Vandalismo" />
+                android:text="Caminata" />
             <CheckBox
-                android:id="@+id/op_otro2"
+                android:id="@+id/camping"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Camping" />
+            <CheckBox
+                android:id="@+id/otro3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
@@ -244,11 +291,11 @@
 
             </FrameLayout>
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="left"
-                android:text="Declaratoria del espacio turístico asociado al atractivo"
+                android:text="Tangibles e intangibles"
                 android:textSize="16sp"
                 android:textStyle="bold" />
             <FrameLayout
@@ -256,28 +303,65 @@
                 android:layout_height="10dp">
 
             </FrameLayout>
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/declarante"
+
+            <CheckBox
+                android:id="@+id/recorridos"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Declarante:">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </com.google.android.material.textfield.TextInputEditText>
-            </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Recorridos guiados" />
+            <CheckBox
+                android:id="@+id/guiados"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Recorrido autoguiados" />
+            <CheckBox
+                android:id="@+id/talleresArt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Visita a talleres artesanales" />
+            <CheckBox
+                android:id="@+id/exhibiciones"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Exhibición de piezas, muestras, obras, etc" />
+            <CheckBox
+                android:id="@+id/exposicionesTematicas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Exposiciones temáticas permanentes, temporales y eventuales" />
+            <CheckBox
+                android:id="@+id/fotografia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Fotografía" />
+            <CheckBox
+                android:id="@+id/degustacionPlatTrad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Degustación de platos tradicionales" />
+            <CheckBox
+                android:id="@+id/otro4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Otro" />
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/denominacion"
+                android:id="@+id/observaciones4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Denominación:">
+                android:hint="Observaciones:">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -285,42 +369,6 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="10dp">
-
-            </FrameLayout>
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/fechadeclarante"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Fecha de declaración:">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </com.google.android.material.textfield.TextInputEditText>
-            </com.google.android.material.textfield.TextInputLayout>
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="10dp">
-
-            </FrameLayout>
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/alcance"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Alcance:">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </com.google.android.material.textfield.TextInputEditText>
-            </com.google.android.material.textfield.TextInputLayout>
-
-
 
 
 
@@ -330,10 +378,10 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_regresarIntegracionAtractivo"
+                    android:id="@+id/btn_regresarActividadesPractican"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="0.5"
                     android:backgroundTint="#B8B5B5"
                     android:text="Regresar" />
 
@@ -344,13 +392,13 @@
                 </FrameLayout>
 
                 <Button
-                    android:id="@+id/btn_siguienteIntegracionAtractivo"
+                    android:id="@+id/btn_siguienteActividadesPractican"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="0.5"
                     android:backgroundTint="#CB3141"
                     android:text="Siguiente"
-                    android:textColor="#FFFFFF"/>
+                    android:textColor="#FFFFFF" />
 
             </LinearLayout>
 

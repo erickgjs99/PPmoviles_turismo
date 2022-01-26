@@ -13,5 +13,9 @@ class HigieneSeguridadTuristica : AppCompatActivity() {
         btn_regresarHigieneTuristica.setOnClickListener(){
             startActivity(Intent(this, OptionsConservacionAtractivo::class.java))
         }
+
+        btn_sigHigieneTuristica.setOnClickListener(){
+            startActivity(Intent(this, OptionsPoliticaRegulaciones::class.java))
+        }
     }
 }

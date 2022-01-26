@@ -10,7 +10,7 @@ class OptionsHigieneTuristica : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_options_higiene_turistica)
         btn_opNo.setOnClickListener(){
-            //startActivity(Intent(this, HigieneSeguridadTuristica::class.java))
+            startActivity(Intent(this, OptionsConservacionAtractivo::class.java))
         }
 
         btn_opSi.setOnClickListener(){

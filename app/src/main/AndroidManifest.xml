@@ -13,6 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".ActividadesPractican"
+            android:exported="false" />
+        <activity
+            android:name=".OptionsActividadesPractican"
+            android:exported="false" />
+        <activity
+            android:name=".PoliticasyRegulaciones"
+            android:exported="false" />
+        <activity
+            android:name=".OptionsPoliticaRegulaciones"
+            android:exported="false" />
+        <activity
             android:name=".HigieneSeguridadTuristica"
             android:exported="false" />
         <activity
