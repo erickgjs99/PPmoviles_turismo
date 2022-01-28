@@ -13,6 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".RecursoHumano"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroVisitantesAfluencia"
+            android:exported="false" />
+        <activity
+            android:name=".OptionsRegistroVisitantesAfluencia"
+            android:exported="false" />
+        <activity
             android:name=".ActividadesPractican"
             android:exported="false" />
         <activity

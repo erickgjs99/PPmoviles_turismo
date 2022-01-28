@@ -10,6 +10,10 @@ class OptionsActividadesPractican : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_options_actividades_practican)
 
+        btn_actNo.setOnClickListener(){
+            startActivity(Intent(this, OptionsRegistroVisitantesAfluencia::class.java))
+        }
+
         btn_actSi.setOnClickListener(){
             startActivity(Intent(this, ActividadesPractican::class.java))
         }
