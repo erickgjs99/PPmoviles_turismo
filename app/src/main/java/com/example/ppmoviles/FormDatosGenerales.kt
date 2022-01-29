@@ -57,17 +57,7 @@ class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener 
             Toast.makeText(applicationContext,txt1, Toast.LENGTH_LONG).show()
             startActivity(Intent(this, UbicacionActivity::class.java))
         }
-        btn_editar.setOnClickListener(){
-            startActivity(Intent(this,FormDatosGenerales::class.java))
-            db.collection("users").document().get().addOnSuccessListener {
-                t_nombreAtractivo.setText(it.get("nombre del atractivo") as String?)
-                categoria.setText(it.get("categoria") as String?)
-                tipo.setText(it.get("tipo") as String?)
-                subtipo.setText(it.get("subtipo") as String?)
-            }
-            var txt1 = "Edicion"
-            Toast.makeText(applicationContext,txt1, Toast.LENGTH_LONG).show()
-        }
+
     }
 
 
