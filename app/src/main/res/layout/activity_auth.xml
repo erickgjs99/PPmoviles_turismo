@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
     tools:context=".AuthActivity">
 
     <LinearLayout
@@ -16,32 +18,40 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp">
+            android:layout_height="61dp">
 
         </FrameLayout>
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="189dp"
-            android:layout_height="68dp"
+            android:layout_width="wrap_content"
+            android:layout_height="137dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/portada" />
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="33dp">
+            android:layout_height="37dp">
 
         </FrameLayout>
 
-        <EditText
-            android:id="@+id/et_email"
-            android:layout_width="184dp"
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:ems="10"
             android:gravity="center"
-            android:hint="Correo Electrónico"
-            android:inputType="textPersonName" />
+            android:hint="Correo Electrónico">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -49,32 +59,56 @@
 
         </FrameLayout>
 
-        <EditText
-            android:id="@+id/et_clave"
-            android:layout_width="wrap_content"
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:ems="10"
             android:gravity="center"
-            android:hint="Ingrese su clave"
-            android:inputType="textPersonName" />
+            android:hint="Contraseña">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_clave"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="33dp">
+            android:layout_height="45dp">
 
         </FrameLayout>
 
-        <Button
-            android:id="@+id/btn_registar"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrarse" />
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btn_acceder"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Acceder" />
+            <Button
+                android:id="@+id/btn_registar"
+                android:layout_width="224dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#CB3141"
+                android:text="Registrarse"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btn_acceder"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#CB3141"
+                android:text="Acceder"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

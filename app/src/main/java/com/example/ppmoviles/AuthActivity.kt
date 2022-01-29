@@ -19,7 +19,7 @@ class AuthActivity : AppCompatActivity() {
     private fun setup(){
         title = "Autentication"
         btn_registar.setOnClickListener{
-            if (et_email.text.isNotEmpty() && et_clave.text.isNotEmpty()){
+            if (et_email.text.toString().isNotEmpty() && et_clave.text.toString().isNotEmpty()){
 
                 FirebaseAuth.getInstance()
                     .createUserWithEmailAndPassword(et_email.text.toString(),
@@ -34,7 +34,7 @@ class AuthActivity : AppCompatActivity() {
 
         }
         btn_acceder.setOnClickListener(){
-            if (et_email.text.isNotEmpty() && et_clave.text.isNotEmpty()){
+            if (et_email.text.toString().isNotEmpty() && et_clave.text.toString().isNotEmpty()){
                 FirebaseAuth.getInstance().signInWithEmailAndPassword(et_email.text.toString(),
                     et_clave.text.toString()).addOnCompleteListener(){
                     if (it.isSuccessful){

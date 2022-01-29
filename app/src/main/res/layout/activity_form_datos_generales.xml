@@ -156,14 +156,7 @@
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.5">
-
-                    <Button
-                        android:id="@+id/btn_guardar"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="guardar" />
-                </FrameLayout>
+                    android:layout_weight="0.5"/>
 
                 <Button
                     android:id="@+id/btn_siguienteDatos"

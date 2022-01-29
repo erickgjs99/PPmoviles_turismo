@@ -45,7 +45,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 app:cardCornerRadius="15dp"
                 android:layout_marginTop="20dp">
                 <RelativeLayout
@@ -53,6 +53,25 @@
                     android:layout_height="match_parent"
                     android:background="@color/gris"
                     android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/btn_editar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="80dp"
+                        android:backgroundTint="#2196F3"
+                        android:text="Editar"
+                        android:textColor="#FFFFFF"></Button>
+                    <Button
+                        android:id="@+id/btn_eliminar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="80dp"
+                        android:backgroundTint="#CB3141"
+                        android:text="Eliminar"
+                        android:textColor="#FFFFFF"></Button>
 
                     <TextView
                         android:id="@+id/t1"
@@ -80,6 +99,7 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="25dp">
                     </TextView>
+
 
                     <ImageView
                         android:layout_width="89dp"

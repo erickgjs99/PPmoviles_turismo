@@ -10,14 +10,17 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_form_datos_generales.*
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
+import kotlinx.android.synthetic.main.activity_formularios_registrados.*
+
 
 class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener {
 
-    private val db = FirebaseFirestore.getInstance()
+    private lateinit var db: FirebaseFirestore
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_form_datos_generales)
+
         val bundle:Bundle?=intent.extras
         val email:String? = bundle?.getString("email")
         val provider:String? = bundle?.getString("provider")
@@ -33,22 +36,36 @@ class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener 
             onItemClickListener = this@FormDatosGenerales
         }
 
-
-        setup(email?:"", provider?:"")
-
+        setup()
         btn_regresarDatos.setOnClickListener(){
             startActivity(Intent(this, MainActivity::class.java))
         }
-        btn_siguienteDatos.setOnClickListener(){
-            startActivity(Intent(this, UbicacionActivity::class.java))
-        }
+
+
     }
-    private fun setup(email:String, provider:String){
-        btn_guardar.setOnClickListener(){
-            db.collection("users").document(email).set(
-                hashMapOf("provider" to provider,"nombre del atractivo" to t_nombreAtractivo)
+    private fun setup(){
+        title ="Inicio"
+
+        btn_siguienteDatos.setOnClickListener(){
+            db = FirebaseFirestore.getInstance()
+            db.collection("users").document().set(
+                hashMapOf("nombre del atractivo" to t_nombreAtractivo.text.toString(),
+                    "categoria" to categoria.text.toString(), "tipo" to tipo.text.toString(),
+                    "subtipo" to subtipo.text.toString())
             )
             var txt1 = "Datos Guardados"
+            Toast.makeText(applicationContext,txt1, Toast.LENGTH_LONG).show()
+            startActivity(Intent(this, UbicacionActivity::class.java))
+        }
+        btn_editar.setOnClickListener(){
+            startActivity(Intent(this,FormDatosGenerales::class.java))
+            db.collection("users").document().get().addOnSuccessListener {
+                t_nombreAtractivo.setText(it.get("nombre del atractivo") as String?)
+                categoria.setText(it.get("categoria") as String?)
+                tipo.setText(it.get("tipo") as String?)
+                subtipo.setText(it.get("subtipo") as String?)
+            }
+            var txt1 = "Edicion"
             Toast.makeText(applicationContext,txt1, Toast.LENGTH_LONG).show()
         }
     }
