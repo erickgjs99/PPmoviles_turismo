@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#FFFFFF"
     android:backgroundTint="#FFFFFF"
     android:fillViewport="true">
 
@@ -33,6 +34,9 @@
                 android:id="@+id/imageView5"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
                 app:srcCompat="@drawable/portada" />
 
             <FrameLayout
@@ -51,9 +55,10 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="18dp" >
+                android:layout_height="18dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta1"
                 android:layout_width="match_parent"
@@ -66,11 +71,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta2"
                 android:layout_width="match_parent"
@@ -83,11 +90,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta3"
                 android:layout_width="match_parent"
@@ -100,11 +109,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta4"
                 android:layout_width="match_parent"
@@ -117,11 +128,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta5"
                 android:layout_width="match_parent"
@@ -134,17 +147,12 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
 
             </FrameLayout>
-
-
-
-
-
-
 
 
             <LinearLayout

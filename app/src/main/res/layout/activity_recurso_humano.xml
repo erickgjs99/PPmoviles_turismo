@@ -11,6 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
         tools:context=".RegistroVisitantesAfluencia">
@@ -33,6 +34,7 @@
                 android:id="@+id/imageView5"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 app:srcCompat="@drawable/portada" />
 
             <FrameLayout
@@ -51,7 +53,7 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="18dp" >
+                android:layout_height="18dp">
 
             </FrameLayout>
 
@@ -63,17 +65,19 @@
                 android:text="Número de personas a cargo de la administración y operación del atractivo"
                 android:textSize="15dp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="">
+                android:hint=""
+                android:inputType="number">
 
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -82,11 +86,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <TextView
                 android:id="@+id/cadena2"
                 android:layout_width="match_parent"
@@ -95,17 +101,19 @@
                 android:text="Número de personas especializadas en turismo"
                 android:textSize="15dp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="">
+                android:hint=""
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -113,11 +121,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <TextView
                 android:id="@+id/cadena3"
                 android:layout_width="match_parent"
@@ -126,17 +136,19 @@
                 android:text="Número de personas con nivel de instrucción"
                 android:textSize="15dp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Primaria">
+                android:hint="Primaria"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -144,17 +156,19 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Secundaria">
+                android:hint="Secundaria"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -162,17 +176,19 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Tercer Nivel">
+                android:hint="Tercer Nivel"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -180,17 +196,19 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Cuarto Nivel">
+                android:hint="Cuarto Nivel"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -198,17 +216,19 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Otro">
+                android:hint="Otro"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -216,11 +236,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <TextView
                 android:id="@+id/cadena4"
                 android:layout_width="match_parent"
@@ -229,17 +251,19 @@
                 android:text="Número de personas capacitadas por temática"
                 android:textSize="15dp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Primeros Auxilios">
+                android:hint="Primeros Auxilios"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -247,16 +271,17 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
-            </FrameLayout>
+                android:layout_height="10dp"></FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Hospitalidad">
+                android:hint="Hospitalidad"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -264,16 +289,17 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
-            </FrameLayout>
+                android:layout_height="10dp"></FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Atención al Cliente">
+                android:hint="Atención al Cliente"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -281,16 +307,17 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
-            </FrameLayout>
+                android:layout_height="10dp"></FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Guianza">
+                android:hint="Guianza"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -298,16 +325,17 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
-            </FrameLayout>
+                android:layout_height="10dp"></FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Sensibilización de discapacidades">
+                android:hint="Sensibilización de discapacidades"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -315,16 +343,17 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
-            </FrameLayout>
+                android:layout_height="10dp"></FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Otro">
+                android:hint="Otro"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -332,11 +361,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <TextView
                 android:id="@+id/cadena5"
                 android:layout_width="match_parent"
@@ -345,17 +376,19 @@
                 android:text="Número de personas que manejan algún de Idiomas"
                 android:textSize="15dp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Inglés">
+                android:hint="Inglés"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -363,17 +396,19 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Alemán">
+                android:hint="Alemán"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -381,17 +416,19 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Francés">
+                android:hint="Francés"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -399,17 +436,19 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Italiano">
+                android:hint="Italiano"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -417,17 +456,19 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Chino">
+                android:hint="Chino"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -435,17 +476,19 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp" >
+                android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Otro">
+                android:hint="Otro"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -453,17 +496,19 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="20dp" >
+                android:layout_height="20dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Observaciones:">
+                android:hint="Observaciones:"
+                android:inputType="number">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -471,18 +516,6 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
             <LinearLayout
@@ -501,8 +534,7 @@
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.5">
-                </FrameLayout>
+                    android:layout_weight="0.5"></FrameLayout>
 
                 <Button
                     android:id="@+id/btn_guardarRecursosHumanos"

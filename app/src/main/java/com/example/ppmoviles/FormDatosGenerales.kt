@@ -8,7 +8,6 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_form_datos_generales.*
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.activity_formularios_registrados.*
 
@@ -49,7 +48,7 @@ class FormDatosGenerales : AppCompatActivity(), AdapterView.OnItemClickListener 
         btn_siguienteDatos.setOnClickListener(){
             db = FirebaseFirestore.getInstance()
             db.collection("users").document().set(
-                hashMapOf("nombre del atractivo" to t_nombreAtractivo.text.toString(),
+                hashMapOf("nombre del atractivo" to t_nombreatractivo.text.toString(),
                     "categoria" to categoria.text.toString(), "tipo" to tipo.text.toString(),
                     "subtipo" to subtipo.text.toString())
             )

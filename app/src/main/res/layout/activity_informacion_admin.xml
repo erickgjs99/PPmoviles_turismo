@@ -11,6 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
         tools:context=".InformacionAdmin">
@@ -33,6 +34,7 @@
                 android:id="@+id/imageView5"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 app:srcCompat="@drawable/portada" />
 
             <FrameLayout
@@ -79,6 +81,7 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -97,6 +100,7 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -122,6 +126,7 @@
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/cargo"
                 android:layout_width="match_parent"
@@ -134,11 +139,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/telefono"
                 android:layout_width="match_parent"
@@ -151,11 +158,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/correoAdmin"
                 android:layout_width="match_parent"
@@ -168,11 +177,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/observaciones"
                 android:layout_width="match_parent"
@@ -202,17 +213,17 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="#B8B5B5"
-                    android:textColor="#000000"
-                    android:text="Regresar" />
+                    android:text="Regresar"
+                    android:textColor="#000000" />
 
                 <Button
                     android:id="@+id/btn_siguienteInformacionAdmin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:backgroundTint="#CB3141"
                     android:text="Siguiente"
-                    android:textColor="#FFFFFF"
-                    android:backgroundTint="#CB3141"/>
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
         </LinearLayout>

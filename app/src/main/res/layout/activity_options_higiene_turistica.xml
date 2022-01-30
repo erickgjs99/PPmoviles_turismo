@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#FFFFFF"
     android:backgroundTint="#FFFFFF"
     android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
         tools:context=".OptionsHigieneTuristica">
@@ -32,6 +34,7 @@
                 android:id="@+id/imageView5"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 app:srcCompat="@drawable/portada" />
 
             <FrameLayout
@@ -70,16 +73,16 @@
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.5"/>
+                    android:layout_weight="0.5" />
 
                 <Button
                     android:id="@+id/btn_opSi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:textColor="#FFFFFF"
                     android:backgroundTint="#CB3141"
-                    android:text="SI" />
+                    android:text="SI"
+                    android:textColor="#FFFFFF" />
 
             </LinearLayout>
 

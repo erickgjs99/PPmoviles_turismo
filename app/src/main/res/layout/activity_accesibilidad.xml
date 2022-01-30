@@ -11,6 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
         tools:context=".AccesibilidadActivity">
@@ -33,6 +34,7 @@
                 android:id="@+id/imageView5"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 app:srcCompat="@drawable/portada" />
 
             <FrameLayout
@@ -65,11 +67,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -82,11 +86,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -99,11 +105,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -116,6 +124,7 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -130,21 +139,25 @@
                 android:text="Vías de Acceso"
                 android:textSize="20sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Terrestre (M)"/>
+                android:text="Terrestre (M)" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -157,11 +170,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -174,11 +189,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -191,11 +208,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -208,11 +227,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -225,11 +246,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -242,11 +265,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -257,12 +282,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Acuatico"/>
+                android:text="Acuatico" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -275,11 +302,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -292,11 +321,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -309,11 +340,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -326,26 +359,31 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Aereo"/>
+                android:text="Aereo" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -358,11 +396,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -375,6 +415,7 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -395,77 +436,84 @@
                 android:layout_height="10dp">
 
             </FrameLayout>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Bus"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Buseta"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Transporte 4x4"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Taxi"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Moto Taxi"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Teleférico"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Lancha"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Bote"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Barco"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Canoa"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Avión"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Avioneta"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:checked="false"
-                android:text="Helicoptero"/>
 
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Bus" />
 
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Buseta" />
 
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Transporte 4x4" />
 
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Taxi" />
 
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Moto Taxi" />
 
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Teleférico" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Lancha" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Bote" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Barco" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Canoa" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Avión" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Avioneta" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:text="Helicoptero" />
 
 
             <LinearLayout

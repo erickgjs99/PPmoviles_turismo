@@ -11,6 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
         tools:context=".IngresoAtractivo">
@@ -33,6 +34,7 @@
                 android:id="@+id/imageView5"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 app:srcCompat="@drawable/portada" />
 
             <FrameLayout
@@ -67,6 +69,7 @@
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tipoIngreso"
                 android:layout_width="match_parent"
@@ -79,11 +82,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/horarioEntrada"
                 android:layout_width="match_parent"
@@ -96,11 +101,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/horarioSalida"
                 android:layout_width="match_parent"
@@ -113,11 +120,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/atencion"
                 android:layout_width="match_parent"
@@ -130,11 +139,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/reservas"
                 android:layout_width="match_parent"
@@ -158,8 +169,8 @@
                 android:id="@+id/precioDesde"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="numberDecimal"
-                android:hint="Precio desde">
+                android:hint="Precio desde"
+                android:inputType="numberDecimal">
 
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -174,12 +185,14 @@
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/precioHasta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="numberDecimal"
-                android:hint="Precio Hasta">
+                android:hint="Precio Hasta"
+                android:inputType="numberDecimal">
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -207,36 +220,42 @@
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Efectivo"/>
+                android:text="Efectivo" />
+
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Dinero Electrónico"/>
+                android:text="Dinero Electrónico" />
+
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Depósito Bancario"/>
+                android:text="Depósito Bancario" />
+
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Tarjeta de Débito"/>
+                android:text="Tarjeta de Débito" />
+
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Tarjeta de Crédito"/>
+                android:text="Tarjeta de Crédito" />
+
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:text="Transferencia Bancaria"/>
+                android:text="Transferencia Bancaria" />
 
             <CheckBox
                 android:layout_width="match_parent"
@@ -244,34 +263,40 @@
                 android:checked="false"
                 android:text="Cheque"
                 tools:ignore="TouchTargetSizeCheck" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/mesesVisitas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="Meses recomendables de visita">
+                android:hint="Meses recomendables de visita"
+                android:inputType="text">
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/observaciones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="Observaciones">
+                android:hint="Observaciones"
+                android:inputType="text">
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -301,8 +326,7 @@
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.5">
-                </FrameLayout>
+                    android:layout_weight="0.5"></FrameLayout>
 
                 <Button
                     android:id="@+id/btn_siguienteIngAtractivo"

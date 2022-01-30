@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#FFFFFF"
     android:backgroundTint="#FFFFFF"
     android:fillViewport="true">
 
@@ -33,6 +34,7 @@
                 android:id="@+id/imageView5"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 app:srcCompat="@drawable/portada" />
 
             <FrameLayout
@@ -52,6 +54,7 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="18dp" />
+
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
@@ -60,11 +63,13 @@
                 android:text="Los servicios Básicos se encuentran en le atractivo o en la ciudad o poblado mas cercano?"
                 android:textSize="16sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta1"
                 android:layout_width="match_parent"
@@ -77,18 +82,21 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_erosion"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:textStyle="bold"
-                android:text="Agua" />
+                android:text="Agua"
+                android:textStyle="bold" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/especifique_agua"
                 android:layout_width="match_parent"
@@ -101,18 +109,21 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_energia"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:textStyle="bold"
-                android:text="Energía eléctrica" />
+                android:text="Energía eléctrica"
+                android:textStyle="bold" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/especifique_energia"
                 android:layout_width="match_parent"
@@ -125,18 +136,21 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_saneamiento"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:textStyle="bold"
-                android:text="Saneamiento" />
+                android:text="Saneamiento"
+                android:textStyle="bold" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/especifique_saneamiento"
                 android:layout_width="match_parent"
@@ -149,18 +163,21 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_desechos"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:textStyle="bold"
-                android:text="Disposición de desechos" />
+                android:text="Disposición de desechos"
+                android:textStyle="bold" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/especifique_desechos"
                 android:layout_width="match_parent"
@@ -173,11 +190,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/observaciones"
                 android:layout_width="match_parent"
@@ -192,8 +211,9 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="18dp" />
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
@@ -202,18 +222,21 @@
                 android:text="Salud más cercano"
                 android:textSize="25sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_hospital"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:textStyle="bold"
-                android:text="Hospital o Clínica" />
+                android:text="Hospital o Clínica"
+                android:textStyle="bold" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/cant_hosp"
                 android:layout_width="match_parent"
@@ -226,18 +249,21 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_centrodesalud"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:textStyle="bold"
-                android:text="Puesto / Centro de salud" />
+                android:text="Puesto / Centro de salud"
+                android:textStyle="bold" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/cant_centrodesalud"
                 android:layout_width="match_parent"
@@ -250,18 +276,21 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_dispMedico"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:textStyle="bold"
-                android:text="Dispensario médico" />
+                android:text="Dispensario médico"
+                android:textStyle="bold" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/cant_dispMedico"
                 android:layout_width="match_parent"
@@ -274,18 +303,21 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_botiquin"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:textStyle="bold"
-                android:text="Botiquín de primeros auxilios" />
+                android:text="Botiquín de primeros auxilios"
+                android:textStyle="bold" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/cant_botiquin"
                 android:layout_width="match_parent"
@@ -298,11 +330,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/observaciones2"
                 android:layout_width="match_parent"
@@ -315,9 +349,11 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="18dp" />
+
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
@@ -326,18 +362,21 @@
                 android:text="Seguridad"
                 android:textSize="25sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_privada"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:textStyle="bold"
-                android:text="Privada" />
+                android:text="Privada"
+                android:textStyle="bold" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/detalle_privada"
                 android:layout_width="match_parent"
@@ -350,18 +389,21 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_policiaNac"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:textStyle="bold"
-                android:text="Policía nacional" />
+                android:text="Policía nacional"
+                android:textStyle="bold" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/detalle_policiaNac"
                 android:layout_width="match_parent"
@@ -374,18 +416,21 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_policiaMetro"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:textStyle="bold"
-                android:text="Policía metropolitana / Municipal" />
+                android:text="Policía metropolitana / Municipal"
+                android:textStyle="bold" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/detalle_policiaMetro"
                 android:layout_width="match_parent"
@@ -398,18 +443,21 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_otro"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
-                android:textStyle="bold"
-                android:text="Otra" />
+                android:text="Otra"
+                android:textStyle="bold" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/detalle_otro"
                 android:layout_width="match_parent"
@@ -422,6 +470,7 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -431,6 +480,7 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="18dp" />
+
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
@@ -439,11 +489,13 @@
                 android:text="Servicio de comunicación de uso público (M)"
                 android:textSize="25sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <TextView
                 android:id="@+id/cadena2"
                 android:layout_width="match_parent"
@@ -452,23 +504,27 @@
                 android:text="Conexión a Internet"
                 android:textSize="18dp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_lineaTel"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Línea telefónica" />
+
             <CheckBox
                 android:id="@+id/op_fibraOptica"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Fibra óptica" />
+
             <CheckBox
                 android:id="@+id/op_satelital2"
                 android:layout_width="match_parent"
@@ -476,6 +532,7 @@
                 android:checked="false"
 
                 android:text="Satélite" />
+
             <CheckBox
                 android:id="@+id/op_redesIna"
                 android:layout_width="match_parent"
@@ -483,6 +540,7 @@
                 android:checked="false"
 
                 android:text="Redes inalámbricas" />
+
             <CheckBox
                 android:id="@+id/op_telfMovil"
                 android:layout_width="match_parent"
@@ -490,9 +548,11 @@
                 android:checked="false"
 
                 android:text="Telefonía móvil" />
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp"/>
+                android:layout_height="10dp" />
+
             <TextView
                 android:id="@+id/cadena1"
                 android:layout_width="match_parent"
@@ -501,11 +561,13 @@
                 android:text="Telefonía"
                 android:textSize="18dp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_fija"
                 android:layout_width="match_parent"
@@ -513,6 +575,7 @@
                 android:checked="false"
 
                 android:text="Fija" />
+
             <CheckBox
                 android:id="@+id/op_movil"
                 android:layout_width="match_parent"
@@ -520,6 +583,7 @@
                 android:checked="false"
 
                 android:text="Móvil" />
+
             <CheckBox
                 android:id="@+id/op_satelital"
                 android:layout_width="match_parent"
@@ -527,9 +591,11 @@
                 android:checked="false"
 
                 android:text="Satelital" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="18dp" />
+
             <TextView
                 android:id="@+id/cadena3"
                 android:layout_width="match_parent"
@@ -538,58 +604,68 @@
                 android:text="Multiamenzaza"
                 android:textSize="25sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/deslaves"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Deslaves" />
+
             <CheckBox
                 android:id="@+id/sismos"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Sismos" />
+
             <CheckBox
                 android:id="@+id/erupVolcanicas"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Erupciones Volcánicas" />
+
             <CheckBox
                 android:id="@+id/incenForestales"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Incendios Forestales" />
+
             <CheckBox
                 android:id="@+id/inundaciones"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Inundaciones" />
+
             <CheckBox
                 android:id="@+id/sequia"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Sequía" />
+
             <CheckBox
                 android:id="@+id/tsunami"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Tsunami" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/pregunta2"
                 android:layout_width="match_parent"
@@ -602,16 +678,12 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
-
-
-
-
-
 
 
             <LinearLayout
@@ -641,7 +713,7 @@
                     android:layout_weight="0.5"
                     android:backgroundTint="#CB3141"
                     android:text="Siguiente"
-                    android:textColor="#FFFFFF"/>
+                    android:textColor="#FFFFFF" />
 
             </LinearLayout>
 

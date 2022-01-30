@@ -11,6 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
         tools:context=".IntegracionAtractivo">
@@ -33,6 +34,7 @@
                 android:id="@+id/imageView5"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 app:srcCompat="@drawable/portada" />
 
             <FrameLayout
@@ -65,6 +67,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </FrameLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -76,11 +85,7 @@
                 android:layout_height="10dp">
 
             </FrameLayout>
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="10dp">
 
-            </FrameLayout>
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
@@ -89,11 +94,13 @@
                 android:text="Factores de alteración y deterioro(M)"
                 android:textSize="20sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
@@ -102,6 +109,7 @@
                 android:text="Naturales"
                 android:textSize="16sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -114,41 +122,48 @@
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Erosión" />
+
             <CheckBox
                 android:id="@+id/op_humedad"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Humedad" />
+
             <CheckBox
                 android:id="@+id/op_desastresnaturales"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Desastres Naturales" />
+
             <CheckBox
                 android:id="@+id/op_flora_fauna"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Flora/Fauna" />
+
             <CheckBox
                 android:id="@+id/op_clima"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Clima" />
+
             <CheckBox
                 android:id="@+id/op_otro"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Otro" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/observaciones2"
                 android:layout_width="match_parent"
@@ -161,11 +176,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
@@ -174,58 +191,68 @@
                 android:text="Antrópicos/Antropogénicos"
                 android:textSize="16sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <CheckBox
                 android:id="@+id/op_actagricolas"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Actividades agrícolas y ganaderas" />
+
             <CheckBox
                 android:id="@+id/op_actindust"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Actividades  industriales" />
+
             <CheckBox
                 android:id="@+id/op_actintenencia"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Conflicto de tenencia" />
+
             <CheckBox
                 android:id="@+id/op_actcontambiente"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Contaminación del ambiente" />
+
             <CheckBox
                 android:id="@+id/op_actforestales"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Actividades forestales" />
+
             <CheckBox
                 android:id="@+id/op_vandalismo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Vandalismo" />
+
             <CheckBox
                 android:id="@+id/op_otro2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Otro" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/observaciones3"
                 android:layout_width="match_parent"
@@ -238,11 +265,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
@@ -251,11 +280,13 @@
                 android:text="Declaratoria del espacio turístico asociado al atractivo"
                 android:textSize="16sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/declarante"
                 android:layout_width="match_parent"
@@ -268,11 +299,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/denominacion"
                 android:layout_width="match_parent"
@@ -285,11 +318,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/fechadeclarante"
                 android:layout_width="match_parent"
@@ -302,11 +337,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/alcance"
                 android:layout_width="match_parent"
@@ -319,9 +356,6 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
-
-
-
 
 
             <LinearLayout
@@ -340,8 +374,7 @@
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.5">
-                </FrameLayout>
+                    android:layout_weight="0.5"></FrameLayout>
 
                 <Button
                     android:id="@+id/btn_siguienteIntegracionAtractivo"
@@ -350,7 +383,7 @@
                     android:layout_weight="1"
                     android:backgroundTint="#CB3141"
                     android:text="Siguiente"
-                    android:textColor="#FFFFFF"/>
+                    android:textColor="#FFFFFF" />
 
             </LinearLayout>
 

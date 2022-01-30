@@ -11,6 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
         tools:context=".ActividadesPractican">
@@ -31,8 +32,10 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="180dp"
+                android:layout_width="190dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
                 app:srcCompat="@drawable/portada" />
 
             <FrameLayout
@@ -62,11 +65,13 @@
                 android:text="Atractivos Naturales"
                 android:textSize="20sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
@@ -88,47 +93,55 @@
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="buceo" />
+
             <CheckBox
                 android:id="@+id/kayakMar"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Kayak de mar" />
+
             <CheckBox
                 android:id="@+id/kayakLacu"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Kayak lacustre" />
+
             <CheckBox
                 android:id="@+id/surf"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Surf" />
+
             <CheckBox
                 android:id="@+id/rafting"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Rafting" />
+
             <CheckBox
                 android:id="@+id/snorkel"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Snorkel" />
+
             <CheckBox
                 android:id="@+id/otro"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Otro" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/observaciones"
                 android:layout_width="match_parent"
@@ -141,11 +154,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
@@ -154,6 +169,7 @@
                 android:text="En el aire"
                 android:textSize="16sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -166,29 +182,34 @@
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Alas Delta" />
+
             <CheckBox
                 android:id="@+id/canopy"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Canopy" />
+
             <CheckBox
                 android:id="@+id/parapente"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Parapente" />
+
             <CheckBox
                 android:id="@+id/otro2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Otro" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/observaciones2"
                 android:layout_width="match_parent"
@@ -201,11 +222,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
@@ -214,6 +237,7 @@
                 android:text="En superficie terrestre"
                 android:textSize="16sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -226,53 +250,62 @@
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Montañismo" />
+
             <CheckBox
                 android:id="@+id/escalada"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Escalada" />
+
             <CheckBox
                 android:id="@+id/senderismo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Senderismo" />
+
             <CheckBox
                 android:id="@+id/cicloturismo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Cicloturismo" />
+
             <CheckBox
                 android:id="@+id/canyoning"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Canyoning" />
+
             <CheckBox
                 android:id="@+id/caminata"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Caminata" />
+
             <CheckBox
                 android:id="@+id/camping"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Camping" />
+
             <CheckBox
                 android:id="@+id/otro3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Otro" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/observaciones3"
                 android:layout_width="match_parent"
@@ -285,11 +318,13 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
@@ -298,6 +333,7 @@
                 android:text="Tangibles e intangibles"
                 android:textSize="16sp"
                 android:textStyle="bold" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -310,53 +346,62 @@
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Recorridos guiados" />
+
             <CheckBox
                 android:id="@+id/guiados"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Recorrido autoguiados" />
+
             <CheckBox
                 android:id="@+id/talleresArt"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Visita a talleres artesanales" />
+
             <CheckBox
                 android:id="@+id/exhibiciones"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Exhibición de piezas, muestras, obras, etc" />
+
             <CheckBox
                 android:id="@+id/exposicionesTematicas"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Exposiciones temáticas permanentes, temporales y eventuales" />
+
             <CheckBox
                 android:id="@+id/fotografia"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Fotografía" />
+
             <CheckBox
                 android:id="@+id/degustacionPlatTrad"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Degustación de platos tradicionales" />
+
             <CheckBox
                 android:id="@+id/otro4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="Otro" />
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
 
             </FrameLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/observaciones4"
                 android:layout_width="match_parent"
@@ -369,7 +414,6 @@
 
                 </com.google.android.material.textfield.TextInputEditText>
             </com.google.android.material.textfield.TextInputLayout>
-
 
 
             <LinearLayout
@@ -388,8 +432,7 @@
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.5">
-                </FrameLayout>
+                    android:layout_weight="0.5"></FrameLayout>
 
                 <Button
                     android:id="@+id/btn_siguienteActividadesPractican"

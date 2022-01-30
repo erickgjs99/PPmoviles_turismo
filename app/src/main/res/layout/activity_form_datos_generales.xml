@@ -11,6 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
         tools:context=".FormDatosGenerales">
@@ -33,11 +34,12 @@
                 android:id="@+id/imageView5"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 app:srcCompat="@drawable/portada" />
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp">
+                android:layout_height="21dp">
 
             </FrameLayout>
 
@@ -61,7 +63,7 @@
                 android:hint="Nombre del Atractivo Turístico">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/t_nombreAtractivo"
+                    android:id="@+id/t_nombreatractivo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -84,8 +86,8 @@
                     android:id="@+id/categoria"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="none"
-                    android:hint="Categoria">
+                    android:hint="Categoria"
+                    android:inputType="none">
 
                 </AutoCompleteTextView>
             </com.google.android.material.textfield.TextInputLayout>
@@ -106,11 +108,12 @@
                     android:id="@+id/tipo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="none"
-                    android:hint="Tipo">
+                    android:hint="Tipo"
+                    android:inputType="none">
 
                 </AutoCompleteTextView>
             </com.google.android.material.textfield.TextInputLayout>
+
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp">
@@ -127,8 +130,8 @@
                     android:id="@+id/subtipo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="none"
-                    android:hint="Subtipo">
+                    android:hint="Subtipo"
+                    android:inputType="none">
 
                 </AutoCompleteTextView>
             </com.google.android.material.textfield.TextInputLayout>
@@ -156,7 +159,7 @@
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.5"/>
+                    android:layout_weight="0.5" />
 
                 <Button
                     android:id="@+id/btn_siguienteDatos"

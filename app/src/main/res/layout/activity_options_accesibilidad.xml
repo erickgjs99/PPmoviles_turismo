@@ -10,6 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:padding="16dp"
         tools:context=".OptionsAccesibilidad">
@@ -32,6 +33,8 @@
                 android:id="@+id/imageView5"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
                 app:srcCompat="@drawable/portada" />
 
             <FrameLayout
@@ -70,17 +73,16 @@
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.5">
-                </FrameLayout>
+                    android:layout_weight="0.5"></FrameLayout>
 
                 <Button
                     android:id="@+id/btn_optionsSi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textColor="#FFFFFF"
                     android:backgroundTint="#CB3141"
-                    android:text="SI" />
+                    android:text="SI"
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
         </LinearLayout>
